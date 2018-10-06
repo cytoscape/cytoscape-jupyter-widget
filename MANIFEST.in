@@ -1,0 +1,2 @@
+recursive-include cyjupyter/static *.*
+include cytoscape-jupyter-widget.json

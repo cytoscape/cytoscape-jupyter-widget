@@ -1,0 +1,5 @@
+{
+  "load_extensions": {
+    "cytoscape-jupyter-widget/extension": true
+  }
+}
