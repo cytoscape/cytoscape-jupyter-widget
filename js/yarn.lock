@@ -946,6 +946,14 @@ csso@~2.3.1:
     clap "^1.0.9"
     source-map "^0.5.3"
 
+cytoscape-cx2js@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/cytoscape-cx2js/-/cytoscape-cx2js-0.2.2.tgz#727f1c52040a53a8f77fc0863328bb69f0dd22bf"
+  integrity sha512-HG/ApHudHEZWoJA/vq4hsxe9ITuNWSCMoOBW/nctc0PTWLd4cKt8DHNptVkUy2lXm/KUgDRbKNU9YdOLAOBiDw==
+  dependencies:
+    fs "0.0.1-security"
+    lodash "^4.17.10"
+
 cytoscape@^3.2.17:
   version "3.2.17"
   resolved "https://registry.yarnpkg.com/cytoscape/-/cytoscape-3.2.17.tgz#15bf90a81e0f71a4cada0ea2668c45f23915a9b7"
@@ -1338,6 +1346,11 @@ fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
   integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
+
+fs@0.0.1-security:
+  version "0.0.1-security"
+  resolved "https://registry.yarnpkg.com/fs/-/fs-0.0.1-security.tgz#8a7bd37186b6dddf3813f23858b57ecaaf5e41d4"
+  integrity sha1-invTcYa23d84E/I4WLV+yq9eQdQ=
 
 fsevents@^1.2.2:
   version "1.2.4"

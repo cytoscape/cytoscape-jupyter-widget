@@ -1,6 +1,7 @@
 import ipywidgets as widgets
 
 from traitlets import (
+    Any,
     Float, Unicode, Int, Tuple, List, Instance, Bool, Dict, Enum,
     link, observe, default, validate, TraitError
 )
@@ -16,5 +17,5 @@ class Cytoscape(widgets.DOMWidget):
     _model_module_version = Unicode('^0.1.0').tag(sync=True)
 
      # Cytoscape options
-    data = Dict().tag(sync=True)
+    data = Any().tag(sync=True)
     format = Unicode('cx').tag(sync=True, o=True)

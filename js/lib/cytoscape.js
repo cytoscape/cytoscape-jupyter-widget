@@ -3,6 +3,11 @@ var _ = require('lodash');
 var cytoscape = require('cytoscape');
 var cyjs = require('./cytoscape-renderer');
 
+const FORMAT = {
+    CX: 'cx',
+    CYJS: 'cyjs'
+}
+
 const EMPTY_NET = {
     data: {
         name: 'Cytoscape Network'
@@ -11,6 +16,19 @@ const EMPTY_NET = {
         nodes: [],
         edges: []
     }
+}
+
+var cycx2js = require('cytoscape-cx2js')
+
+function fromCx(cx) {
+    console.log('CYCX', cycx2js)
+    const utils = new cycx2js.CyNetworkUtils();
+    const niceCX = utils.rawCXtoNiceCX(cx);
+    const cx2Js = new cycx2js.CxToJs(utils);
+    const attributeNameMap = {};
+    const elements = cx2Js.cyElementsFromNiceCX(niceCX, attributeNameMap);
+    const style = cx2Js.cyStyleFromNiceCX(niceCX, attributeNameMap);
+    return [elements, style];
 }
 
 // Custom Model. Custom widgets models must at least provide default values
@@ -68,7 +86,6 @@ var CytoscapeView = widgets.DOMWidgetView.extend({
 
     value_changed: function() {
         const data = this.model.get('data');
-        const format = this.model.get('format');
         console.log('Data = ', data)
         this.el.classList.add('cytoscape-widget')
         this.el.id = 'cyjs'
@@ -82,13 +99,28 @@ var CytoscapeView = widgets.DOMWidgetView.extend({
     render_cy: function() {
         var that = this;
         const data = that.model.get('data');
+        const format = this.model.get('format');
         console.log('Rendering data:', that.el, data)
+
+
+        let network = data
+        if (format === FORMAT.CX) {
+            // Convert to CYJS
+            console.log('This is CX:', data)
+            const cyjsData = fromCx(data)
+            console.log('result CX:', cyjsData)
+
+            network = {
+                elements: cyjsData[0]
+            }
+        }
+
 
         var cy = cytoscape({
 
             container: that.el, // container to render in
 
-            elements: data.elements,
+            elements: network.elements,
 
             style: [ // the stylesheet for the graph
                 {
