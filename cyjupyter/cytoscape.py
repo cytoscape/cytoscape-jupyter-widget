@@ -18,4 +18,8 @@ class Cytoscape(widgets.DOMWidget):
 
      # Cytoscape options
     data = Any().tag(sync=True)
-    format = Unicode('cx').tag(sync=True, o=True)
+    style = Any().tag(sync=True, o=True)
+    format = Unicode('cyjs').tag(sync=True, o=True)
+    layout_name = Unicode('preset').tag(sync=True, o=True)
+    background = Unicode('#FFFFFF').tag(sync=True, o=True)
+    cell_height = Unicode('500px').tag(sync=True, o=True)

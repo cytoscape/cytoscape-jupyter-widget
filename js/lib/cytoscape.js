@@ -5,8 +5,27 @@ var cyjs = require('./cytoscape-renderer');
 
 const FORMAT = {
     CX: 'cx',
-    CYJS: 'cyjs'
+    CYJS: 'cyjs',
+    EDGELIST: 'el',
 }
+
+const DEF_STYLE = [{
+        selector: 'node',
+        style: {
+            'background-color': 'teal',
+            'label': 'data(id)'
+        }
+    },
+    {
+        selector: 'edge',
+        style: {
+            'width': 3,
+            'line-color': '#FFFFFF',
+            'target-arrow-color': '#FFFFFF',
+            'target-arrow-shape': 'triangle'
+        }
+    }
+];
 
 const EMPTY_NET = {
     data: {
@@ -16,19 +35,6 @@ const EMPTY_NET = {
         nodes: [],
         edges: []
     }
-}
-
-var cycx2js = require('cytoscape-cx2js')
-
-function fromCx(cx) {
-    console.log('CYCX', cycx2js)
-    const utils = new cycx2js.CyNetworkUtils();
-    const niceCX = utils.rawCXtoNiceCX(cx);
-    const cx2Js = new cycx2js.CxToJs(utils);
-    const attributeNameMap = {};
-    const elements = cx2Js.cyElementsFromNiceCX(niceCX, attributeNameMap);
-    const style = cx2Js.cyStyleFromNiceCX(niceCX, attributeNameMap);
-    return [elements, style];
 }
 
 // Custom Model. Custom widgets models must at least provide default values
@@ -85,61 +91,58 @@ var CytoscapeView = widgets.DOMWidgetView.extend({
     },
 
     value_changed: function() {
-        const data = this.model.get('data');
-        console.log('Data = ', data)
+        let background = this.model.get('background');
+        let cellHeight = this.model.get('cell_height');
+
+        if (!background) {
+            background = '#FFFFFF'
+        }
+        if (!cellHeight) {
+            cellHeight = '550px'
+        }
+
         this.el.classList.add('cytoscape-widget')
         this.el.id = 'cyjs'
-        this.el.setAttribute("style", "background: #EEEEEE; height: 400px;");
 
-        // this.displayed.then(this.render_cy(this.el))
+        this.el.setAttribute("style", "background:" + background + "; height: " + cellHeight + ";");
         this.displayed.then(_.bind(this.render_cy, this));
-        // this.el.textContent = format;
     },
 
     render_cy: function() {
         var that = this;
-        const data = that.model.get('data');
-        const format = this.model.get('format');
-        console.log('Rendering data:', that.el, data)
 
+        // Extract parameters
+        const data = that.model.get('data');
+        const format = that.model.get('format');
+        var layoutName = that.model.get('layout_name');
+        let visualStyle = that.model.get('style');
+
+        if (layoutName === undefined || typeof layoutName !== 'string') {
+            layoutName = 'grid'
+        }
 
         let network = data
         if (format === FORMAT.CX) {
             // Convert to CYJS
             console.log('This is CX:', data)
-            const cyjsData = fromCx(data)
-            console.log('result CX:', cyjsData)
-
-            network = {
-                elements: cyjsData[0]
-            }
+            network = cyjs.fromCx(data)
+            visualStyle = network.style
+            console.log('result CX:', network)
+            console.log('result CX:', network)
+            console.log('Layout3:', layoutName)
         }
 
+        if (!visualStyle) {
+            visualStyle = DEF_STYLE;
+        }
 
         var cy = cytoscape({
-
             container: that.el, // container to render in
-
             elements: network.elements,
-
-            style: [ // the stylesheet for the graph
-                {
-                    selector: 'node',
-                    style: {
-                        'background-color': 'teal',
-                        'label': 'data(id)'
-                    }
-                },
-                {
-                    selector: 'edge',
-                    style: {
-                        'width': 3,
-                        'line-color': '#FFFFFF',
-                        'target-arrow-color': '#FFFFFF',
-                        'target-arrow-shape': 'triangle'
-                    }
-                }
-            ],
+            style: visualStyle,
+            layout: {
+                name: layoutName
+            }
         });
     }
 });
