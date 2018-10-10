@@ -6,7 +6,7 @@
     "main": "lib/index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/cytoscape/cytoscape-jupyter-widget.git"
+        "url": "https://github.com/idekerla/cytoscape-jupyter-widget.git"
     },
     "keywords": [
         "jupyter",

@@ -1,0 +1,180 @@
+[ {
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.6.1",
+  "target_cytoscapejs_version" : "~2.1",
+  "title" : "KEGG Style",
+  "style" : [ {
+    "selector" : "node",
+    "css" : {
+      "border-opacity" : 1.0,
+      "background-opacity" : 0.9411764705882353,
+      "text-valign" : "center",
+      "text-halign" : "center",
+      "shape" : "ellipse",
+      "text-opacity" : 1.0,
+      "font-size" : 8,
+      "font-family" : "HelveticaNeue",
+      "font-weight" : "normal",
+      "border-color" : "rgb(0,0,0)",
+      "border-width" : 0.0,
+      "color" : "data(KEGG_NODE_LABEL_COLOR)",
+      "background-color" : "data(KEGG_NODE_FILL_COLOR)",
+      "content" : "data(KEGG_NODE_LABEL_LIST_FIRST)",
+      "width" : "data(KEGG_NODE_WIDTH)",
+      "height" : "data(KEGG_NODE_HEIGHT)"
+    }
+  }, {
+    "selector" : "node[KEGG_NODE_TYPE = 'ortholog']",
+    "css" : {
+      "font-size" : 9
+    }
+  }, {
+    "selector" : "node[KEGG_NODE_TYPE = 'gene']",
+    "css" : {
+      "font-size" : 9
+    }
+  }, {
+    "selector" : "node[KEGG_NODE_TYPE = 'compound']",
+    "css" : {
+      "font-size" : 6
+    }
+  }, {
+    "selector" : "node[KEGG_NODE_TYPE = 'map']",
+    "css" : {
+      "font-size" : 9
+    }
+  }, {
+    "selector" : "node[KEGG_NODE_TYPE = 'group']",
+    "css" : {
+      "font-size" : 9
+    }
+  }, {
+    "selector" : "node[KEGG_NODE_TYPE = 'group']",
+    "css" : {
+      "background-opacity" : 0.0
+    }
+  }, {
+    "selector" : "node[KEGG_NODE_TYPE = 'compound']",
+    "css" : {
+      "text-valign" : "bottom"
+    }
+  }, {
+    "selector" : "node[KEGG_NODE_TYPE = 'ortholog']",
+    "css" : {
+      "border-width" : 1.0
+    }
+  }, {
+    "selector" : "node[KEGG_NODE_TYPE = 'compound']",
+    "css" : {
+      "border-width" : 2.0
+    }
+  }, {
+    "selector" : "node[KEGG_NODE_TYPE = 'group']",
+    "css" : {
+      "border-width" : 1.0
+    }
+  }, {
+    "selector" : "node[KEGG_NODE_TYPE = 'ortholog']",
+    "css" : {
+      "shape" : "rectangle"
+    }
+  }, {
+    "selector" : "node[KEGG_NODE_TYPE = 'gene']",
+    "css" : {
+      "shape" : "rectangle"
+    }
+  }, {
+    "selector" : "node[KEGG_NODE_TYPE = 'map']",
+    "css" : {
+      "shape" : "roundrectangle"
+    }
+  }, {
+    "selector" : "node[KEGG_NODE_TYPE = 'compound']",
+    "css" : {
+      "shape" : "ellipse"
+    }
+  }, {
+    "selector" : "node[KEGG_NODE_TYPE = 'group']",
+    "css" : {
+      "shape" : "rectangle"
+    }
+  }, {
+    "selector" : "node:selected",
+    "css" : {
+      "background-color" : "rgb(255,255,0)"
+    }
+  }, {
+    "selector" : "edge",
+    "css" : {
+      "color" : "rgb(220,20,60)",
+      "target-arrow-shape" : "none",
+      "line-style" : "solid",
+      "font-family" : "HelveticaNeue",
+      "font-weight" : "normal",
+      "opacity" : 0.7058823529411765,
+      "source-arrow-shape" : "none",
+      "target-arrow-color" : "rgb(64,64,64)",
+      "source-arrow-color" : "rgb(64,64,64)",
+      "text-opacity" : 1.0,
+      "width" : 1.0,
+      "font-size" : 10,
+      "line-color" : "rgb(64,64,64)",
+      "content" : "data(KEGG_EDGE_LABEL)"
+    }
+  }, {
+    "selector" : "edge[KEGG_EDGE_SUBTYPES = 'expression']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[KEGG_EDGE_SUBTYPES = 'indirect effect']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[KEGG_EDGE_SUBTYPES = 'irreversible']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[KEGG_EDGE_SUBTYPES = 'inhibition']",
+    "css" : {
+      "target-arrow-shape" : "tee"
+    }
+  }, {
+    "selector" : "edge[KEGG_EDGE_SUBTYPES = 'repression']",
+    "css" : {
+      "target-arrow-shape" : "tee"
+    }
+  }, {
+    "selector" : "edge[KEGG_EDGE_SUBTYPES = 'activation']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[KEGG_EDGE_SUBTYPES = 'state change']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[KEGG_EDGE_SUBTYPES = 'indirect effect']",
+    "css" : {
+      "line-style" : "dashed"
+    }
+  }, {
+    "selector" : "edge[KEGG_EDGE_SUBTYPES = 'binding/association']",
+    "css" : {
+      "line-style" : "dashed"
+    }
+  }, {
+    "selector" : "edge[KEGG_EDGE_SUBTYPES = 'maplink']",
+    "css" : {
+      "line-style" : "dashed"
+    }
+  }, {
+    "selector" : "edge:selected",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  } ]
+} ]

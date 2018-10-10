@@ -1,0 +1,2905 @@
+{
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.6.1",
+  "target_cytoscapejs_version" : "~2.1",
+  "data" : {
+    "KEGG_PATHWAY_IMAGE" : "https://www.kegg.jp/kegg/pathway/hsa/hsa00020.png",
+    "KEGG_PATHWAY_ORG" : "hsa",
+    "modules_id" : [ "Gluconeogenesis, oxaloacetate => fructose-6P [PATH:hsa00020]", "Citrate cycle (TCA cycle, Krebs cycle) [PATH:hsa00020]", "Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate [PATH:hsa00020]", "Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate [PATH:hsa00020]", "Pyruvate oxidation, pyruvate => acetyl-CoA [PATH:hsa00020]" ],
+    "KEGG_PATHWAY_ID" : "path:hsa00020",
+    "__Annotations" : [ ],
+    "classes" : [ "Metabolism", "Carbohydrate metabolism" ],
+    "description" : "The citrate cycle (TCA cycle, Krebs cycle) is an important aerobic pathway for the final steps of the oxidation of carbohydrates and fatty acids. The cycle starts with acetyl-CoA, the activated form of acetate, derived from glycolysis and pyruvate oxidation for carbohydrates and from beta oxidation of fatty acids. The two-carbon acetyl group in acetyl-CoA is transferred to the four-carbon compound of oxaloacetate to form the six-carbon compound of citrate. In a series of reactions two carbons in citrate are oxidized to CO2 and the reaction pathway supplies NADH for use in the oxidative phosphorylation and other metabolic processes. The pathway also supplies important precursor metabolites including 2-oxoglutarate. At the end of the cycle the remaining four-carbon part is transformed back to oxaloacetate. According to the genome sequence data, many organisms seem to lack genes for the full cycle [MD:M00009], but contain genes for specific segments [MD:M00010 M00011].",
+    "diseases" : [ "H00073", "H00469", "H00804", "H01022", "H01225", "H02000", "H02004", "H02005", "H02006", "H02113" ],
+    "diseases_id" : [ "Pyruvate carboxylase deficiency", "Mitochondrial DNA depletion syndrome", "Multiple cutaneous and uterine leiomyomata", "Diseases of the tricarboxylic acid cycle", "D-2-hydroxyglutaric aciduria", "Dihydrolipoamide dehydrogenase deficiency", "Fumarase deficiency", "Mitochondrial complex II deficiency", "Alpha-ketoglutarate dehydrogenase complex deficiency", "Infantile cerebellar-retinal degeneration" ],
+    "KEGG_PATHWAY_LINK" : "https://www.kegg.jp/kegg-bin/show_pathway?hsa00020",
+    "modules" : [ "hsa_M00003", "hsa_M00009", "hsa_M00010", "hsa_M00011", "hsa_M00307" ],
+    "shared_name" : "Citrate cycle (TCA cycle) [hsa00020]",
+    "name" : "Citrate cycle (TCA cycle) [hsa00020]",
+    "SUID" : 52,
+    "selected" : true
+  },
+  "elements" : {
+    "nodes" : [ {
+      "data" : {
+        "id" : "131",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?K05942",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "K05942",
+        "KEGG_NODE_TYPE" : "ortholog",
+        "shared_name" : "path:hsa00020:104",
+        "KEGG_NODE_LABEL" : "K05942",
+        "KEGG_NODE_REACTIONID" : "rn:R00351",
+        "name" : "path:hsa00020:104",
+        "SUID" : 131,
+        "KEGG_NODE_LABEL_LIST" : [ "K05942" ],
+        "KEGG_ID" : [ "ko:K05942" ],
+        "KEGG_NODE_Y" : "369",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "436",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 436.0,
+        "y" : 369.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "130",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?K00174+K00175+K00177+K00176",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "K00174...",
+        "KEGG_NODE_TYPE" : "ortholog",
+        "shared_name" : "path:hsa00020:103",
+        "KEGG_NODE_LABEL" : "K00174...",
+        "KEGG_NODE_REACTIONID" : "rn:R01197",
+        "name" : "path:hsa00020:103",
+        "SUID" : 130,
+        "KEGG_NODE_LABEL_LIST" : [ "K00174..." ],
+        "KEGG_ID" : [ "ko:K00174", "ko:K00175", "ko:K00177", "ko:K00176" ],
+        "KEGG_NODE_Y" : "678",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "530",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 530.0,
+        "y" : 678.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "129",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?K00174+K00175",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "K00174...",
+        "KEGG_NODE_TYPE" : "ortholog",
+        "shared_name" : "path:hsa00020:102",
+        "KEGG_NODE_LABEL" : "K00174...",
+        "KEGG_NODE_REACTIONID" : "rn:R01196",
+        "name" : "path:hsa00020:102",
+        "SUID" : 129,
+        "KEGG_NODE_LABEL_LIST" : [ "K00174..." ],
+        "KEGG_ID" : [ "ko:K00174", "ko:K00175" ],
+        "KEGG_NODE_Y" : "179",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "535",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 535.0,
+        "y" : 179.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "128",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?K00169+K00170+K00172+K00171+K03737",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "K00169...",
+        "KEGG_NODE_TYPE" : "ortholog",
+        "shared_name" : "path:hsa00020:101",
+        "KEGG_NODE_LABEL" : "K00169...",
+        "KEGG_NODE_REACTIONID" : "rn:R01196",
+        "name" : "path:hsa00020:101",
+        "SUID" : 128,
+        "KEGG_NODE_LABEL_LIST" : [ "K00169..." ],
+        "KEGG_ID" : [ "ko:K00169", "ko:K00170", "ko:K00172", "ko:K00171", "ko:K03737" ],
+        "KEGG_NODE_Y" : "157",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "535",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 535.0,
+        "y" : 157.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "127",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?K00174+K00175",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "K00174...",
+        "KEGG_NODE_TYPE" : "ortholog",
+        "shared_name" : "path:hsa00020:99",
+        "KEGG_NODE_LABEL" : "K00174...",
+        "KEGG_NODE_REACTIONID" : "rn:R01197",
+        "name" : "path:hsa00020:99",
+        "SUID" : 127,
+        "KEGG_NODE_LABEL_LIST" : [ "K00174..." ],
+        "KEGG_ID" : [ "ko:K00174", "ko:K00175" ],
+        "KEGG_NODE_Y" : "656",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "530",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 530.0,
+        "y" : 656.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "126",
+        "KEGG_NODE_WIDTH" : "119",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa00220",
+        "KEGG_NODE_HEIGHT" : "25",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Arginine biosynthesis",
+        "KEGG_NODE_TYPE" : "map",
+        "shared_name" : "path:hsa00020:97",
+        "KEGG_NODE_LABEL" : "Arginine biosynthesis",
+        "name" : "path:hsa00020:97",
+        "SUID" : 126,
+        "KEGG_NODE_LABEL_LIST" : [ "Arginine biosynthesis" ],
+        "KEGG_ID" : [ "path:hsa00220" ],
+        "KEGG_NODE_Y" : "583",
+        "KEGG_NODE_SHAPE" : "roundrectangle",
+        "KEGG_NODE_X" : "861",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#89b9cE"
+      },
+      "position" : {
+        "x" : 861.0,
+        "y" : 583.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "125",
+        "KEGG_NODE_WIDTH" : "120",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa00220",
+        "KEGG_NODE_HEIGHT" : "25",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Arginine biosynthesis",
+        "KEGG_NODE_TYPE" : "map",
+        "shared_name" : "path:hsa00020:96",
+        "KEGG_NODE_LABEL" : "Arginine biosynthesis",
+        "name" : "path:hsa00020:96",
+        "SUID" : 125,
+        "KEGG_NODE_LABEL_LIST" : [ "Arginine biosynthesis" ],
+        "KEGG_ID" : [ "path:hsa00220" ],
+        "KEGG_NODE_Y" : "486",
+        "KEGG_NODE_SHAPE" : "roundrectangle",
+        "KEGG_NODE_X" : "80",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#89b9cE"
+      },
+      "position" : {
+        "x" : 80.0,
+        "y" : 486.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "124",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?K00244+K00245+K00246+K00247+K00239+K00240+K00241+K00242+K18859+K18860",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "K00244...",
+        "KEGG_NODE_TYPE" : "ortholog",
+        "shared_name" : "path:hsa00020:95",
+        "KEGG_NODE_LABEL" : "K00244...",
+        "KEGG_NODE_REACTIONID" : "rn:R02164",
+        "name" : "path:hsa00020:95",
+        "SUID" : 124,
+        "KEGG_NODE_LABEL_LIST" : [ "K00244..." ],
+        "KEGG_ID" : [ "ko:K00244", "ko:K00245", "ko:K00246", "ko:K00247", "ko:K00239", "ko:K00240", "ko:K00241", "ko:K00242", "ko:K18859", "ko:K18860" ],
+        "KEGG_NODE_Y" : "535",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "165",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 165.0,
+        "y" : 535.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "123",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?K00116",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "K00116",
+        "KEGG_NODE_TYPE" : "ortholog",
+        "shared_name" : "path:hsa00020:94",
+        "KEGG_NODE_LABEL" : "K00116",
+        "KEGG_NODE_REACTIONID" : "rn:R00361",
+        "name" : "path:hsa00020:94",
+        "SUID" : 123,
+        "KEGG_NODE_LABEL_LIST" : [ "K00116" ],
+        "KEGG_ID" : [ "ko:K00116" ],
+        "KEGG_NODE_Y" : "398",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "253",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 253.0,
+        "y" : 398.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "122",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa:6389+hsa:6390+hsa:6391+hsa:6392",
+        "KEGG_DEFINITION" : " succinate dehydrogenase complex flavoprotein subunit A [KO:K00234] [EC:1.3.5.1]",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "SDHA",
+        "KEGG_NODE_TYPE" : "gene",
+        "shared_name" : "path:hsa00020:92",
+        "KEGG_NODE_LABEL" : "SDHA, CMD1GG, FP, PGL5, SDH1, SDH2, SDHF...",
+        "KEGG_NODE_REACTIONID" : "rn:R02164",
+        "name" : "path:hsa00020:92",
+        "SUID" : 122,
+        "KEGG_NODE_LABEL_LIST" : [ "SDHA", "CMD1GG", "FP", "PGL5", "SDH1", "SDH2", "SDHF..." ],
+        "KEGG_ID" : [ "hsa:6389", "hsa:6390", "hsa:6391", "hsa:6392" ],
+        "KEGG_NODE_Y" : "535",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "215",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#BFFFBF"
+      },
+      "position" : {
+        "x" : 215.0,
+        "y" : 535.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "121",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?K18118",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "K18118",
+        "KEGG_NODE_TYPE" : "ortholog",
+        "shared_name" : "path:hsa00020:91",
+        "KEGG_NODE_LABEL" : "K18118",
+        "KEGG_NODE_REACTIONID" : "rn:R10343",
+        "name" : "path:hsa00020:91",
+        "SUID" : 121,
+        "KEGG_NODE_LABEL_LIST" : [ "K18118" ],
+        "KEGG_ID" : [ "ko:K18118" ],
+        "KEGG_NODE_Y" : "598",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "260",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 260.0,
+        "y" : 598.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "120",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?K17753",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "K17753",
+        "KEGG_NODE_TYPE" : "ortholog",
+        "shared_name" : "path:hsa00020:90",
+        "KEGG_NODE_LABEL" : "K17753",
+        "KEGG_NODE_REACTIONID" : "rn:R00709",
+        "name" : "path:hsa00020:90",
+        "SUID" : 120,
+        "KEGG_NODE_LABEL_LIST" : [ "K17753" ],
+        "KEGG_ID" : [ "ko:K17753" ],
+        "KEGG_NODE_Y" : "463",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "816",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 816.0,
+        "y" : 463.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "119",
+        "KEGG_NODE_WIDTH" : "8",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?C00074",
+        "KEGG_NODE_HEIGHT" : "8",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "PEP",
+        "KEGG_NODE_TYPE" : "compound",
+        "shared_name" : "path:hsa00020:89",
+        "KEGG_NODE_LABEL" : "C00074",
+        "name" : "path:hsa00020:89",
+        "SUID" : 119,
+        "KEGG_NODE_LABEL_LIST" : [ "C00074" ],
+        "KEGG_ID" : [ "cpd:C00074" ],
+        "KEGG_NODE_Y" : "116",
+        "KEGG_NODE_SHAPE" : "circle",
+        "KEGG_NODE_X" : "471",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 471.0,
+        "y" : 116.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "118",
+        "KEGG_NODE_WIDTH" : "8",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?C15973",
+        "KEGG_NODE_HEIGHT" : "8",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Dihydrolipoamide-E",
+        "KEGG_NODE_TYPE" : "compound",
+        "shared_name" : "path:hsa00020:88",
+        "KEGG_NODE_LABEL" : "C15973",
+        "name" : "path:hsa00020:88",
+        "SUID" : 118,
+        "KEGG_NODE_LABEL_LIST" : [ "C15973" ],
+        "KEGG_ID" : [ "cpd:C15973" ],
+        "KEGG_NODE_Y" : "284",
+        "KEGG_NODE_SHAPE" : "circle",
+        "KEGG_NODE_X" : "478",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 478.0,
+        "y" : 284.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "117",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa:5105+hsa:5106",
+        "KEGG_DEFINITION" : " phosphoenolpyruvate carboxykinase 1 [KO:K01596] [EC:4.1.1.32]",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "PCK1",
+        "KEGG_NODE_TYPE" : "gene",
+        "shared_name" : "path:hsa00020:87",
+        "KEGG_NODE_LABEL" : "PCK1, PCKDC, PEPCK-C, PEPCK1, PEPCKC...",
+        "KEGG_NODE_REACTIONID" : "rn:R00431 rn:R00726",
+        "name" : "path:hsa00020:87",
+        "SUID" : 117,
+        "KEGG_NODE_LABEL_LIST" : [ "PCK1", "PCKDC", "PEPCK-C", "PEPCK1", "PEPCKC..." ],
+        "KEGG_ID" : [ "hsa:5105", "hsa:5106" ],
+        "KEGG_NODE_Y" : "105",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "371",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#BFFFBF"
+      },
+      "position" : {
+        "x" : 371.0,
+        "y" : 105.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "116",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?K01610",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "K01610",
+        "KEGG_NODE_TYPE" : "ortholog",
+        "shared_name" : "path:hsa00020:86",
+        "KEGG_NODE_LABEL" : "K01610",
+        "KEGG_NODE_REACTIONID" : "rn:R00341",
+        "name" : "path:hsa00020:86",
+        "SUID" : 116,
+        "KEGG_NODE_LABEL_LIST" : [ "K01610" ],
+        "KEGG_ID" : [ "ko:K01610" ],
+        "KEGG_NODE_Y" : "126",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "371",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 371.0,
+        "y" : 126.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "115",
+        "KEGG_NODE_WIDTH" : "144",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa00280",
+        "KEGG_NODE_HEIGHT" : "25",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Valine",
+        "KEGG_NODE_TYPE" : "map",
+        "shared_name" : "path:hsa00020:84",
+        "KEGG_NODE_LABEL" : "Valine, leucine and isoleucine degradation",
+        "name" : "path:hsa00020:84",
+        "SUID" : 115,
+        "KEGG_NODE_LABEL_LIST" : [ "Valine", "leucine and isoleucine degradation" ],
+        "KEGG_ID" : [ "path:hsa00280" ],
+        "KEGG_NODE_Y" : "211",
+        "KEGG_NODE_SHAPE" : "roundrectangle",
+        "KEGG_NODE_X" : "154",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#89b9cE"
+      },
+      "position" : {
+        "x" : 154.0,
+        "y" : 211.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "114",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa:1737",
+        "KEGG_DEFINITION" : " dihydrolipoamide S-acetyltransferase [KO:K00627] [EC:2.3.1.12]",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "DLAT",
+        "KEGG_NODE_TYPE" : "gene",
+        "shared_name" : "path:hsa00020:82",
+        "KEGG_NODE_LABEL" : "DLAT, DLTA, PDC-E2, PDCE2",
+        "KEGG_NODE_REACTIONID" : "rn:R02569",
+        "name" : "path:hsa00020:82",
+        "SUID" : 114,
+        "KEGG_NODE_LABEL_LIST" : [ "DLAT", "DLTA", "PDC-E2", "PDCE2" ],
+        "KEGG_ID" : [ "hsa:1737" ],
+        "KEGG_NODE_Y" : "242",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "464",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#BFFFBF"
+      },
+      "position" : {
+        "x" : 464.0,
+        "y" : 242.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "113",
+        "KEGG_NODE_WIDTH" : "8",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?C16255",
+        "KEGG_NODE_HEIGHT" : "8",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "S-Acetyldihydrolipoamide-E",
+        "KEGG_NODE_TYPE" : "compound",
+        "shared_name" : "path:hsa00020:81",
+        "KEGG_NODE_LABEL" : "C16255",
+        "name" : "path:hsa00020:81",
+        "SUID" : 113,
+        "KEGG_NODE_LABEL_LIST" : [ "C16255" ],
+        "KEGG_ID" : [ "cpd:C16255" ],
+        "KEGG_NODE_Y" : "241",
+        "KEGG_NODE_SHAPE" : "circle",
+        "KEGG_NODE_X" : "517",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 517.0,
+        "y" : 241.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "112",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa:1738",
+        "KEGG_DEFINITION" : " dihydrolipoamide dehydrogenase [KO:K00382] [EC:1.8.1.4]",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "DLD",
+        "KEGG_NODE_TYPE" : "gene",
+        "shared_name" : "path:hsa00020:80",
+        "KEGG_NODE_LABEL" : "DLD, DLDD, DLDH, E3, GCSL, LAD, PHE3",
+        "KEGG_NODE_REACTIONID" : "rn:R07618",
+        "name" : "path:hsa00020:80",
+        "SUID" : 112,
+        "KEGG_NODE_LABEL_LIST" : [ "DLD", "DLDD", "DLDH", "E3", "GCSL", "LAD", "PHE3" ],
+        "KEGG_ID" : [ "hsa:1738" ],
+        "KEGG_NODE_Y" : "285",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "529",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#BFFFBF"
+      },
+      "position" : {
+        "x" : 529.0,
+        "y" : 285.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "111",
+        "KEGG_NODE_WIDTH" : "8",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?C15972",
+        "KEGG_NODE_HEIGHT" : "8",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Lipoamide-E",
+        "KEGG_NODE_TYPE" : "compound",
+        "shared_name" : "path:hsa00020:78",
+        "KEGG_NODE_LABEL" : "C15972",
+        "name" : "path:hsa00020:78",
+        "SUID" : 111,
+        "KEGG_NODE_LABEL_LIST" : [ "C15972" ],
+        "KEGG_ID" : [ "cpd:C15972" ],
+        "KEGG_NODE_Y" : "284",
+        "KEGG_NODE_SHAPE" : "circle",
+        "KEGG_NODE_X" : "580",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 580.0,
+        "y" : 284.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "110",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa:5160+hsa:5161+hsa:5162",
+        "KEGG_DEFINITION" : " pyruvate dehydrogenase E1 alpha 1 subunit [KO:K00161] [EC:1.2.4.1]",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "PDHA1",
+        "KEGG_NODE_TYPE" : "gene",
+        "shared_name" : "path:hsa00020:77",
+        "KEGG_NODE_LABEL" : "PDHA1, PDHA, PDHAD, PDHCE1A, PHE1A...",
+        "KEGG_NODE_REACTIONID" : "rn:R03270",
+        "name" : "path:hsa00020:77",
+        "SUID" : 110,
+        "KEGG_NODE_LABEL_LIST" : [ "PDHA1", "PDHA", "PDHAD", "PDHCE1A", "PHE1A..." ],
+        "KEGG_ID" : [ "hsa:5160", "hsa:5161", "hsa:5162" ],
+        "KEGG_NODE_Y" : "241",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "582",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#BFFFBF"
+      },
+      "position" : {
+        "x" : 582.0,
+        "y" : 241.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "109",
+        "KEGG_NODE_WIDTH" : "8",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?C00068",
+        "KEGG_NODE_HEIGHT" : "8",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "TPP",
+        "KEGG_NODE_TYPE" : "compound",
+        "shared_name" : "path:hsa00020:76",
+        "KEGG_NODE_LABEL" : "C00068",
+        "name" : "path:hsa00020:76",
+        "SUID" : 109,
+        "KEGG_NODE_LABEL_LIST" : [ "C00068" ],
+        "KEGG_ID" : [ "cpd:C00068" ],
+        "KEGG_NODE_Y" : "198",
+        "KEGG_NODE_SHAPE" : "circle",
+        "KEGG_NODE_X" : "631",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 631.0,
+        "y" : 198.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "108",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa:5160+hsa:5161+hsa:5162",
+        "KEGG_DEFINITION" : " pyruvate dehydrogenase E1 alpha 1 subunit [KO:K00161] [EC:1.2.4.1]",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "PDHA1",
+        "KEGG_NODE_TYPE" : "gene",
+        "shared_name" : "path:hsa00020:75",
+        "KEGG_NODE_LABEL" : "PDHA1, PDHA, PDHAD, PDHCE1A, PHE1A...",
+        "KEGG_NODE_REACTIONID" : "rn:R00014",
+        "name" : "path:hsa00020:75",
+        "SUID" : 108,
+        "KEGG_NODE_LABEL_LIST" : [ "PDHA1", "PDHA", "PDHAD", "PDHCE1A", "PHE1A..." ],
+        "KEGG_ID" : [ "hsa:5160", "hsa:5161", "hsa:5162" ],
+        "KEGG_NODE_Y" : "241",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "686",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#BFFFBF"
+      },
+      "position" : {
+        "x" : 686.0,
+        "y" : 241.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "107",
+        "KEGG_NODE_WIDTH" : "8",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?C05125",
+        "KEGG_NODE_HEIGHT" : "8",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "2-Hydroxyethyl-ThPP",
+        "KEGG_NODE_TYPE" : "compound",
+        "shared_name" : "path:hsa00020:74",
+        "KEGG_NODE_LABEL" : "C05125",
+        "name" : "path:hsa00020:74",
+        "SUID" : 107,
+        "KEGG_NODE_LABEL_LIST" : [ "C05125" ],
+        "KEGG_ID" : [ "cpd:C05125" ],
+        "KEGG_NODE_Y" : "241",
+        "KEGG_NODE_SHAPE" : "circle",
+        "KEGG_NODE_X" : "631",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 631.0,
+        "y" : 241.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "106",
+        "KEGG_NODE_WIDTH" : "8",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?C05381",
+        "KEGG_NODE_HEIGHT" : "8",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "3-Carboxy-1-hydroxypropyl-ThPP",
+        "KEGG_NODE_TYPE" : "compound",
+        "shared_name" : "path:hsa00020:72",
+        "KEGG_NODE_LABEL" : "C05381",
+        "name" : "path:hsa00020:72",
+        "SUID" : 106,
+        "KEGG_NODE_LABEL_LIST" : [ "C05381" ],
+        "KEGG_ID" : [ "cpd:C05381" ],
+        "KEGG_NODE_Y" : "578",
+        "KEGG_NODE_SHAPE" : "circle",
+        "KEGG_NODE_X" : "593",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 593.0,
+        "y" : 578.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "105",
+        "KEGG_NODE_WIDTH" : "8",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?C00026",
+        "KEGG_NODE_HEIGHT" : "8",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "2-Oxoglutarate",
+        "KEGG_NODE_TYPE" : "compound",
+        "shared_name" : "path:hsa00020:71",
+        "KEGG_NODE_LABEL" : "C00026",
+        "name" : "path:hsa00020:71",
+        "SUID" : 105,
+        "KEGG_NODE_LABEL_LIST" : [ "C00026" ],
+        "KEGG_ID" : [ "cpd:C00026" ],
+        "KEGG_NODE_Y" : "578",
+        "KEGG_NODE_SHAPE" : "circle",
+        "KEGG_NODE_X" : "718",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 718.0,
+        "y" : 578.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "104",
+        "KEGG_NODE_WIDTH" : "8",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?C00091",
+        "KEGG_NODE_HEIGHT" : "8",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Succinyl-CoA",
+        "KEGG_NODE_TYPE" : "compound",
+        "shared_name" : "path:hsa00020:70",
+        "KEGG_NODE_LABEL" : "C00091",
+        "name" : "path:hsa00020:70",
+        "SUID" : 104,
+        "KEGG_NODE_LABEL_LIST" : [ "C00091" ],
+        "KEGG_ID" : [ "cpd:C00091" ],
+        "KEGG_NODE_Y" : "579",
+        "KEGG_NODE_SHAPE" : "circle",
+        "KEGG_NODE_X" : "334",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 334.0,
+        "y" : 579.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "103",
+        "KEGG_NODE_WIDTH" : "8",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?C15973",
+        "KEGG_NODE_HEIGHT" : "8",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Dihydrolipoamide-E",
+        "KEGG_NODE_TYPE" : "compound",
+        "shared_name" : "path:hsa00020:69",
+        "KEGG_NODE_LABEL" : "C15973",
+        "name" : "path:hsa00020:69",
+        "SUID" : 103,
+        "KEGG_NODE_LABEL_LIST" : [ "C15973" ],
+        "KEGG_ID" : [ "cpd:C15973" ],
+        "KEGG_NODE_Y" : "622",
+        "KEGG_NODE_SHAPE" : "circle",
+        "KEGG_NODE_X" : "408",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 408.0,
+        "y" : 622.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "102",
+        "KEGG_NODE_WIDTH" : "8",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?C16254",
+        "KEGG_NODE_HEIGHT" : "8",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "S-Succinyldihydrolipoamide-E",
+        "KEGG_NODE_TYPE" : "compound",
+        "shared_name" : "path:hsa00020:68",
+        "KEGG_NODE_LABEL" : "C16254",
+        "name" : "path:hsa00020:68",
+        "SUID" : 102,
+        "KEGG_NODE_LABEL_LIST" : [ "C16254" ],
+        "KEGG_ID" : [ "cpd:C16254" ],
+        "KEGG_NODE_Y" : "578",
+        "KEGG_NODE_SHAPE" : "circle",
+        "KEGG_NODE_X" : "462",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 462.0,
+        "y" : 578.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "101",
+        "KEGG_NODE_WIDTH" : "8",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?C00068",
+        "KEGG_NODE_HEIGHT" : "8",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "TPP",
+        "KEGG_NODE_TYPE" : "compound",
+        "shared_name" : "path:hsa00020:67",
+        "KEGG_NODE_LABEL" : "C00068",
+        "name" : "path:hsa00020:67",
+        "SUID" : 101,
+        "KEGG_NODE_LABEL_LIST" : [ "C00068" ],
+        "KEGG_ID" : [ "cpd:C00068" ],
+        "KEGG_NODE_Y" : "535",
+        "KEGG_NODE_SHAPE" : "circle",
+        "KEGG_NODE_X" : "589",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 589.0,
+        "y" : 535.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "100",
+        "KEGG_NODE_WIDTH" : "8",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?C15972",
+        "KEGG_NODE_HEIGHT" : "8",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Lipoamide-E",
+        "KEGG_NODE_TYPE" : "compound",
+        "shared_name" : "path:hsa00020:66",
+        "KEGG_NODE_LABEL" : "C15972",
+        "name" : "path:hsa00020:66",
+        "SUID" : 100,
+        "KEGG_NODE_LABEL_LIST" : [ "C15972" ],
+        "KEGG_ID" : [ "cpd:C15972" ],
+        "KEGG_NODE_Y" : "622",
+        "KEGG_NODE_SHAPE" : "circle",
+        "KEGG_NODE_X" : "522",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 522.0,
+        "y" : 622.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "99",
+        "KEGG_NODE_WIDTH" : "8",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?C00158",
+        "KEGG_NODE_HEIGHT" : "8",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Citrate",
+        "KEGG_NODE_TYPE" : "compound",
+        "shared_name" : "path:hsa00020:65",
+        "KEGG_NODE_LABEL" : "C00158",
+        "name" : "path:hsa00020:65",
+        "SUID" : 99,
+        "KEGG_NODE_LABEL_LIST" : [ "C00158" ],
+        "KEGG_ID" : [ "cpd:C00158" ],
+        "KEGG_NODE_Y" : "349",
+        "KEGG_NODE_SHAPE" : "circle",
+        "KEGG_NODE_X" : "522",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 522.0,
+        "y" : 349.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "98",
+        "KEGG_NODE_WIDTH" : "8",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?C00042",
+        "KEGG_NODE_HEIGHT" : "8",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Succinate",
+        "KEGG_NODE_TYPE" : "compound",
+        "shared_name" : "path:hsa00020:64",
+        "KEGG_NODE_LABEL" : "C00042",
+        "name" : "path:hsa00020:64",
+        "SUID" : 98,
+        "KEGG_NODE_LABEL_LIST" : [ "C00042" ],
+        "KEGG_ID" : [ "cpd:C00042" ],
+        "KEGG_NODE_Y" : "579",
+        "KEGG_NODE_SHAPE" : "circle",
+        "KEGG_NODE_X" : "190",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 190.0,
+        "y" : 579.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "97",
+        "KEGG_NODE_WIDTH" : "8",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?C00417",
+        "KEGG_NODE_HEIGHT" : "8",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "cis-Aconitate",
+        "KEGG_NODE_TYPE" : "compound",
+        "shared_name" : "path:hsa00020:63",
+        "KEGG_NODE_LABEL" : "C00417",
+        "name" : "path:hsa00020:63",
+        "SUID" : 97,
+        "KEGG_NODE_LABEL_LIST" : [ "C00417" ],
+        "KEGG_ID" : [ "cpd:C00417" ],
+        "KEGG_NODE_Y" : "349",
+        "KEGG_NODE_SHAPE" : "circle",
+        "KEGG_NODE_X" : "621",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 621.0,
+        "y" : 349.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "96",
+        "KEGG_NODE_WIDTH" : "8",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?C00311",
+        "KEGG_NODE_HEIGHT" : "8",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Isocitrate",
+        "KEGG_NODE_TYPE" : "compound",
+        "shared_name" : "path:hsa00020:62",
+        "KEGG_NODE_LABEL" : "C00311",
+        "name" : "path:hsa00020:62",
+        "SUID" : 96,
+        "KEGG_NODE_LABEL_LIST" : [ "C00311" ],
+        "KEGG_ID" : [ "cpd:C00311" ],
+        "KEGG_NODE_Y" : "349",
+        "KEGG_NODE_SHAPE" : "circle",
+        "KEGG_NODE_X" : "718",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 718.0,
+        "y" : 349.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "95",
+        "KEGG_NODE_WIDTH" : "8",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?C00149",
+        "KEGG_NODE_HEIGHT" : "8",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Malate",
+        "KEGG_NODE_TYPE" : "compound",
+        "shared_name" : "path:hsa00020:61",
+        "KEGG_NODE_LABEL" : "C00149",
+        "name" : "path:hsa00020:61",
+        "SUID" : 95,
+        "KEGG_NODE_LABEL_LIST" : [ "C00149" ],
+        "KEGG_ID" : [ "cpd:C00149" ],
+        "KEGG_NODE_Y" : "398",
+        "KEGG_NODE_SHAPE" : "circle",
+        "KEGG_NODE_X" : "190",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 190.0,
+        "y" : 398.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "94",
+        "KEGG_NODE_WIDTH" : "8",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?C00024",
+        "KEGG_NODE_HEIGHT" : "8",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Acetyl-CoA",
+        "KEGG_NODE_TYPE" : "compound",
+        "shared_name" : "path:hsa00020:60",
+        "KEGG_NODE_LABEL" : "C00024",
+        "name" : "path:hsa00020:60",
+        "SUID" : 94,
+        "KEGG_NODE_LABEL_LIST" : [ "C00024" ],
+        "KEGG_ID" : [ "cpd:C00024" ],
+        "KEGG_NODE_Y" : "241",
+        "KEGG_NODE_SHAPE" : "circle",
+        "KEGG_NODE_X" : "400",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 400.0,
+        "y" : 241.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "93",
+        "KEGG_NODE_WIDTH" : "8",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?C05379",
+        "KEGG_NODE_HEIGHT" : "8",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Oxalosuccinate",
+        "KEGG_NODE_TYPE" : "compound",
+        "shared_name" : "path:hsa00020:59",
+        "KEGG_NODE_LABEL" : "C05379",
+        "name" : "path:hsa00020:59",
+        "SUID" : 93,
+        "KEGG_NODE_LABEL_LIST" : [ "C05379" ],
+        "KEGG_ID" : [ "cpd:C05379" ],
+        "KEGG_NODE_Y" : "458",
+        "KEGG_NODE_SHAPE" : "circle",
+        "KEGG_NODE_X" : "718",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 718.0,
+        "y" : 458.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "92",
+        "KEGG_NODE_WIDTH" : "8",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?C00036",
+        "KEGG_NODE_HEIGHT" : "8",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Oxaloacetate",
+        "KEGG_NODE_TYPE" : "compound",
+        "shared_name" : "path:hsa00020:58",
+        "KEGG_NODE_LABEL" : "C00036",
+        "name" : "path:hsa00020:58",
+        "SUID" : 92,
+        "KEGG_NODE_LABEL_LIST" : [ "C00036" ],
+        "KEGG_ID" : [ "cpd:C00036" ],
+        "KEGG_NODE_Y" : "349",
+        "KEGG_NODE_SHAPE" : "circle",
+        "KEGG_NODE_X" : "320",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 320.0,
+        "y" : 349.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "91",
+        "KEGG_NODE_WIDTH" : "8",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?C00122",
+        "KEGG_NODE_HEIGHT" : "8",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Fumarate",
+        "KEGG_NODE_TYPE" : "compound",
+        "shared_name" : "path:hsa00020:57",
+        "KEGG_NODE_LABEL" : "C00122",
+        "name" : "path:hsa00020:57",
+        "SUID" : 91,
+        "KEGG_NODE_LABEL_LIST" : [ "C00122" ],
+        "KEGG_ID" : [ "cpd:C00122" ],
+        "KEGG_NODE_Y" : "486",
+        "KEGG_NODE_SHAPE" : "circle",
+        "KEGG_NODE_X" : "190",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 190.0,
+        "y" : 486.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "90",
+        "KEGG_NODE_WIDTH" : "8",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?C00022",
+        "KEGG_NODE_HEIGHT" : "8",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Pyruvate",
+        "KEGG_NODE_TYPE" : "compound",
+        "shared_name" : "path:hsa00020:56",
+        "KEGG_NODE_LABEL" : "C00022",
+        "name" : "path:hsa00020:56",
+        "SUID" : 90,
+        "KEGG_NODE_LABEL_LIST" : [ "C00022" ],
+        "KEGG_ID" : [ "cpd:C00022" ],
+        "KEGG_NODE_Y" : "241",
+        "KEGG_NODE_SHAPE" : "circle",
+        "KEGG_NODE_X" : "737",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#FFFFFF"
+      },
+      "position" : {
+        "x" : 737.0,
+        "y" : 241.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "89",
+        "KEGG_NODE_WIDTH" : "152",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa00471",
+        "KEGG_NODE_HEIGHT" : "25",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "D-Glutamine and D-glutamate metabolism",
+        "KEGG_NODE_TYPE" : "map",
+        "shared_name" : "path:hsa00020:55",
+        "KEGG_NODE_LABEL" : "D-Glutamine and D-glutamate metabolism",
+        "name" : "path:hsa00020:55",
+        "SUID" : 89,
+        "KEGG_NODE_LABEL_LIST" : [ "D-Glutamine and D-glutamate metabolism" ],
+        "KEGG_ID" : [ "path:hsa00471" ],
+        "KEGG_NODE_Y" : "685",
+        "KEGG_NODE_SHAPE" : "roundrectangle",
+        "KEGG_NODE_X" : "877",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#89b9cE"
+      },
+      "position" : {
+        "x" : 877.0,
+        "y" : 685.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "88",
+        "KEGG_NODE_WIDTH" : "121",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa00250",
+        "KEGG_NODE_HEIGHT" : "34",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Alanine",
+        "KEGG_NODE_TYPE" : "map",
+        "shared_name" : "path:hsa00020:54",
+        "KEGG_NODE_LABEL" : "Alanine, aspartate and glutamate metabolism",
+        "name" : "path:hsa00020:54",
+        "SUID" : 88,
+        "KEGG_NODE_LABEL_LIST" : [ "Alanine", "aspartate and glutamate metabolism" ],
+        "KEGG_ID" : [ "path:hsa00250" ],
+        "KEGG_NODE_Y" : "275",
+        "KEGG_NODE_SHAPE" : "roundrectangle",
+        "KEGG_NODE_X" : "167",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#89b9cE"
+      },
+      "position" : {
+        "x" : 167.0,
+        "y" : 275.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "87",
+        "KEGG_NODE_WIDTH" : "85",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa00280",
+        "KEGG_NODE_HEIGHT" : "34",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Valine",
+        "KEGG_NODE_TYPE" : "map",
+        "shared_name" : "path:hsa00020:53",
+        "KEGG_NODE_LABEL" : "Valine, leucine and isoleucine degradation",
+        "name" : "path:hsa00020:53",
+        "SUID" : 87,
+        "KEGG_NODE_LABEL_LIST" : [ "Valine", "leucine and isoleucine degradation" ],
+        "KEGG_ID" : [ "path:hsa00280" ],
+        "KEGG_NODE_Y" : "641",
+        "KEGG_NODE_SHAPE" : "roundrectangle",
+        "KEGG_NODE_X" : "266",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#89b9cE"
+      },
+      "position" : {
+        "x" : 266.0,
+        "y" : 641.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "86",
+        "KEGG_NODE_WIDTH" : "76",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa00350",
+        "KEGG_NODE_HEIGHT" : "34",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Tyrosine metabolism",
+        "KEGG_NODE_TYPE" : "map",
+        "shared_name" : "path:hsa00020:52",
+        "KEGG_NODE_LABEL" : "Tyrosine metabolism",
+        "name" : "path:hsa00020:52",
+        "SUID" : 86,
+        "KEGG_NODE_LABEL_LIST" : [ "Tyrosine metabolism" ],
+        "KEGG_ID" : [ "path:hsa00350" ],
+        "KEGG_NODE_Y" : "448",
+        "KEGG_NODE_SHAPE" : "roundrectangle",
+        "KEGG_NODE_X" : "102",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#89b9cE"
+      },
+      "position" : {
+        "x" : 102.0,
+        "y" : 448.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "85",
+        "KEGG_NODE_WIDTH" : "229",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa00020",
+        "KEGG_NODE_HEIGHT" : "25",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "TITLE:Citrate cycle (TCA cycle)",
+        "KEGG_NODE_TYPE" : "map",
+        "shared_name" : "path:hsa00020:51",
+        "KEGG_NODE_LABEL" : "TITLE:Citrate cycle (TCA cycle)",
+        "name" : "path:hsa00020:51",
+        "SUID" : 85,
+        "KEGG_NODE_LABEL_LIST" : [ "TITLE:Citrate cycle (TCA cycle)" ],
+        "KEGG_ID" : [ "path:hsa00020" ],
+        "KEGG_NODE_Y" : "58",
+        "KEGG_NODE_SHAPE" : "roundrectangle",
+        "KEGG_NODE_X" : "155",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#f5f5f5"
+      },
+      "position" : {
+        "x" : 155.0,
+        "y" : 58.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "84",
+        "KEGG_NODE_WIDTH" : "121",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa00250",
+        "KEGG_NODE_HEIGHT" : "34",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Alanine",
+        "KEGG_NODE_TYPE" : "map",
+        "shared_name" : "path:hsa00020:50",
+        "KEGG_NODE_LABEL" : "Alanine, aspartate and glutamate metabolism",
+        "name" : "path:hsa00020:50",
+        "SUID" : 84,
+        "KEGG_NODE_LABEL_LIST" : [ "Alanine", "aspartate and glutamate metabolism" ],
+        "KEGG_ID" : [ "path:hsa00250" ],
+        "KEGG_NODE_Y" : "652",
+        "KEGG_NODE_SHAPE" : "roundrectangle",
+        "KEGG_NODE_X" : "862",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#89b9cE"
+      },
+      "position" : {
+        "x" : 862.0,
+        "y" : 652.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "83",
+        "KEGG_NODE_WIDTH" : "126",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa00053",
+        "KEGG_NODE_HEIGHT" : "34",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Ascorbate and aldarate metabolism",
+        "KEGG_NODE_TYPE" : "map",
+        "shared_name" : "path:hsa00020:49",
+        "KEGG_NODE_LABEL" : "Ascorbate and aldarate metabolism",
+        "name" : "path:hsa00020:49",
+        "SUID" : 83,
+        "KEGG_NODE_LABEL_LIST" : [ "Ascorbate and aldarate metabolism" ],
+        "KEGG_ID" : [ "path:hsa00053" ],
+        "KEGG_NODE_Y" : "615",
+        "KEGG_NODE_SHAPE" : "roundrectangle",
+        "KEGG_NODE_X" : "864",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#89b9cE"
+      },
+      "position" : {
+        "x" : 864.0,
+        "y" : 615.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "82",
+        "KEGG_NODE_WIDTH" : "121",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa00071",
+        "KEGG_NODE_HEIGHT" : "25",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Fatty acid degradation",
+        "KEGG_NODE_TYPE" : "map",
+        "shared_name" : "path:hsa00020:48",
+        "KEGG_NODE_LABEL" : "Fatty acid degradation",
+        "name" : "path:hsa00020:48",
+        "SUID" : 82,
+        "KEGG_NODE_LABEL_LIST" : [ "Fatty acid degradation" ],
+        "KEGG_ID" : [ "path:hsa00071" ],
+        "KEGG_NODE_Y" : "239",
+        "KEGG_NODE_SHAPE" : "roundrectangle",
+        "KEGG_NODE_X" : "166",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#89b9cE"
+      },
+      "position" : {
+        "x" : 166.0,
+        "y" : 239.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81",
+        "KEGG_NODE_WIDTH" : "194",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa00062",
+        "KEGG_NODE_HEIGHT" : "25",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Fatty acid elongation",
+        "KEGG_NODE_TYPE" : "map",
+        "shared_name" : "path:hsa00020:47",
+        "KEGG_NODE_LABEL" : "Fatty acid elongation",
+        "name" : "path:hsa00020:47",
+        "SUID" : 81,
+        "KEGG_NODE_LABEL_LIST" : [ "Fatty acid elongation" ],
+        "KEGG_ID" : [ "path:hsa00062" ],
+        "KEGG_NODE_Y" : "181",
+        "KEGG_NODE_SHAPE" : "roundrectangle",
+        "KEGG_NODE_X" : "129",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#89b9cE"
+      },
+      "position" : {
+        "x" : 129.0,
+        "y" : 181.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "80",
+        "KEGG_NODE_WIDTH" : "126",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa00061",
+        "KEGG_NODE_HEIGHT" : "25",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Fatty acid biosynthesis",
+        "KEGG_NODE_TYPE" : "map",
+        "shared_name" : "path:hsa00020:46",
+        "KEGG_NODE_LABEL" : "Fatty acid biosynthesis",
+        "name" : "path:hsa00020:46",
+        "SUID" : 80,
+        "KEGG_NODE_LABEL_LIST" : [ "Fatty acid biosynthesis" ],
+        "KEGG_ID" : [ "path:hsa00061" ],
+        "KEGG_NODE_Y" : "153",
+        "KEGG_NODE_SHAPE" : "roundrectangle",
+        "KEGG_NODE_X" : "163",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#89b9cE"
+      },
+      "position" : {
+        "x" : 163.0,
+        "y" : 153.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "79",
+        "KEGG_NODE_WIDTH" : "216",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa00010",
+        "KEGG_NODE_HEIGHT" : "46",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Glycolysis / Gluconeogenesis",
+        "KEGG_NODE_TYPE" : "map",
+        "shared_name" : "path:hsa00020:45",
+        "KEGG_NODE_LABEL" : "Glycolysis / Gluconeogenesis",
+        "name" : "path:hsa00020:45",
+        "SUID" : 79,
+        "KEGG_NODE_LABEL_LIST" : [ "Glycolysis / Gluconeogenesis" ],
+        "KEGG_ID" : [ "path:hsa00010" ],
+        "KEGG_NODE_Y" : "116",
+        "KEGG_NODE_SHAPE" : "roundrectangle",
+        "KEGG_NODE_X" : "692",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#89b9cE"
+      },
+      "position" : {
+        "x" : 692.0,
+        "y" : 116.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "78",
+        "KEGG_NODE_WIDTH" : "158",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa00630",
+        "KEGG_NODE_HEIGHT" : "34",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "Glyoxylate and dicarboxylate metabolism",
+        "KEGG_NODE_TYPE" : "map",
+        "shared_name" : "path:hsa00020:44",
+        "KEGG_NODE_LABEL" : "Glyoxylate and dicarboxylate metabolism",
+        "name" : "path:hsa00020:44",
+        "SUID" : 78,
+        "KEGG_NODE_LABEL_LIST" : [ "Glyoxylate and dicarboxylate metabolism" ],
+        "KEGG_ID" : [ "path:hsa00630" ],
+        "KEGG_NODE_Y" : "312",
+        "KEGG_NODE_SHAPE" : "roundrectangle",
+        "KEGG_NODE_X" : "149",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#89b9cE"
+      },
+      "position" : {
+        "x" : 149.0,
+        "y" : 312.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "77",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa:5091",
+        "KEGG_DEFINITION" : " pyruvate carboxylase [KO:K01958] [EC:6.4.1.1]",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "PC",
+        "KEGG_NODE_TYPE" : "gene",
+        "shared_name" : "path:hsa00020:43",
+        "KEGG_NODE_LABEL" : "PC, PCB",
+        "KEGG_NODE_REACTIONID" : "rn:R00344",
+        "name" : "path:hsa00020:43",
+        "SUID" : 77,
+        "KEGG_NODE_LABEL_LIST" : [ "PC", "PCB" ],
+        "KEGG_ID" : [ "hsa:5091" ],
+        "KEGG_NODE_Y" : "278",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "736",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#BFFFBF"
+      },
+      "position" : {
+        "x" : 736.0,
+        "y" : 278.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "76",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa:4190+hsa:4191",
+        "KEGG_DEFINITION" : " malate dehydrogenase 1 [KO:K00025] [EC:1.1.1.37]",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "MDH1",
+        "KEGG_NODE_TYPE" : "gene",
+        "shared_name" : "path:hsa00020:42",
+        "KEGG_NODE_LABEL" : "MDH1, HEL-S-32, MDH-s, MDHA, MGC:1375, MOR2...",
+        "KEGG_NODE_REACTIONID" : "rn:R00342",
+        "name" : "path:hsa00020:42",
+        "SUID" : 76,
+        "KEGG_NODE_LABEL_LIST" : [ "MDH1", "HEL-S-32", "MDH-s", "MDHA", "MGC:1375", "MOR2..." ],
+        "KEGG_ID" : [ "hsa:4190", "hsa:4191" ],
+        "KEGG_NODE_Y" : "349",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "253",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#BFFFBF"
+      },
+      "position" : {
+        "x" : 253.0,
+        "y" : 349.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "75",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa:1431",
+        "KEGG_DEFINITION" : " citrate synthase [KO:K01647] [EC:2.3.3.1]",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "CS",
+        "KEGG_NODE_TYPE" : "gene",
+        "shared_name" : "path:hsa00020:41",
+        "KEGG_NODE_LABEL" : "CS",
+        "KEGG_NODE_REACTIONID" : "rn:R00351",
+        "name" : "path:hsa00020:41",
+        "SUID" : 75,
+        "KEGG_NODE_LABEL_LIST" : [ "CS" ],
+        "KEGG_ID" : [ "hsa:1431" ],
+        "KEGG_NODE_Y" : "331",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "436",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#BFFFBF"
+      },
+      "position" : {
+        "x" : 436.0,
+        "y" : 331.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "74",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa:48+hsa:50",
+        "KEGG_DEFINITION" : " aconitase 1 [KO:K01681] [EC:4.2.1.3]",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "ACO1",
+        "KEGG_NODE_TYPE" : "gene",
+        "shared_name" : "path:hsa00020:40",
+        "KEGG_NODE_LABEL" : "ACO1, ACONS, HEL60, IREB1, IREBP, IREBP1, IRP1...",
+        "KEGG_NODE_REACTIONID" : "rn:R01325",
+        "name" : "path:hsa00020:40",
+        "SUID" : 74,
+        "KEGG_NODE_LABEL_LIST" : [ "ACO1", "ACONS", "HEL60", "IREB1", "IREBP", "IREBP1", "IRP1..." ],
+        "KEGG_ID" : [ "hsa:48", "hsa:50" ],
+        "KEGG_NODE_Y" : "350",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "571",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#BFFFBF"
+      },
+      "position" : {
+        "x" : 571.0,
+        "y" : 350.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "73",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa:48+hsa:50",
+        "KEGG_DEFINITION" : " aconitase 1 [KO:K01681] [EC:4.2.1.3]",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "ACO1",
+        "KEGG_NODE_TYPE" : "gene",
+        "shared_name" : "path:hsa00020:39",
+        "KEGG_NODE_LABEL" : "ACO1, ACONS, HEL60, IREB1, IREBP, IREBP1, IRP1...",
+        "KEGG_NODE_REACTIONID" : "rn:R01900",
+        "name" : "path:hsa00020:39",
+        "SUID" : 73,
+        "KEGG_NODE_LABEL_LIST" : [ "ACO1", "ACONS", "HEL60", "IREB1", "IREBP", "IREBP1", "IRP1..." ],
+        "KEGG_ID" : [ "hsa:48", "hsa:50" ],
+        "KEGG_NODE_Y" : "350",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "670",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#BFFFBF"
+      },
+      "position" : {
+        "x" : 670.0,
+        "y" : 350.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "72",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa:2271",
+        "KEGG_DEFINITION" : " fumarate hydratase [KO:K01679] [EC:4.2.1.2]",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "FH",
+        "KEGG_NODE_TYPE" : "gene",
+        "shared_name" : "path:hsa00020:38",
+        "KEGG_NODE_LABEL" : "FH, FMRD, HLRCC, LRCC, MCL, MCUL1",
+        "KEGG_NODE_REACTIONID" : "rn:R01082",
+        "name" : "path:hsa00020:38",
+        "SUID" : 72,
+        "KEGG_NODE_LABEL_LIST" : [ "FH", "FMRD", "HLRCC", "LRCC", "MCL", "MCUL1" ],
+        "KEGG_ID" : [ "hsa:2271" ],
+        "KEGG_NODE_Y" : "441",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "191",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#BFFFBF"
+      },
+      "position" : {
+        "x" : 191.0,
+        "y" : 441.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa:47",
+        "KEGG_DEFINITION" : " ATP citrate lyase [KO:K01648] [EC:2.3.3.8]",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "ACLY",
+        "KEGG_NODE_TYPE" : "gene",
+        "shared_name" : "path:hsa00020:37",
+        "KEGG_NODE_LABEL" : "ACLY, ACL, ATPCL, CLATP",
+        "KEGG_NODE_REACTIONID" : "rn:R00352",
+        "name" : "path:hsa00020:37",
+        "SUID" : 71,
+        "KEGG_NODE_LABEL_LIST" : [ "ACLY", "ACL", "ATPCL", "CLATP" ],
+        "KEGG_ID" : [ "hsa:47" ],
+        "KEGG_NODE_Y" : "350",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "436",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#BFFFBF"
+      },
+      "position" : {
+        "x" : 436.0,
+        "y" : 350.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "70",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa:3417+hsa:3418",
+        "KEGG_DEFINITION" : " isocitrate dehydrogenase (NADP(+)) 1, cytosolic [KO:K00031] [EC:1.1.1.42]",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "IDH1",
+        "KEGG_NODE_TYPE" : "gene",
+        "shared_name" : "path:hsa00020:36",
+        "KEGG_NODE_LABEL" : "IDH1, HEL-216, HEL-S-26, IDCD, IDH, IDP, IDPC, PICD...",
+        "KEGG_NODE_REACTIONID" : "rn:R01899",
+        "name" : "path:hsa00020:36",
+        "SUID" : 70,
+        "KEGG_NODE_LABEL_LIST" : [ "IDH1", "HEL-216", "HEL-S-26", "IDCD", "IDH", "IDP", "IDPC", "PICD..." ],
+        "KEGG_ID" : [ "hsa:3417", "hsa:3418" ],
+        "KEGG_NODE_Y" : "405",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "718",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#BFFFBF"
+      },
+      "position" : {
+        "x" : 718.0,
+        "y" : 405.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "69",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa:3419+hsa:3420+hsa:3421",
+        "KEGG_DEFINITION" : " isocitrate dehydrogenase 3 (NAD(+)) alpha [KO:K00030] [EC:1.1.1.41]",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "IDH3A",
+        "KEGG_NODE_TYPE" : "gene",
+        "shared_name" : "path:hsa00020:35",
+        "KEGG_NODE_LABEL" : "IDH3A...",
+        "KEGG_NODE_REACTIONID" : "rn:R00709",
+        "name" : "path:hsa00020:35",
+        "SUID" : 69,
+        "KEGG_NODE_LABEL_LIST" : [ "IDH3A..." ],
+        "KEGG_ID" : [ "hsa:3419", "hsa:3420", "hsa:3421" ],
+        "KEGG_NODE_Y" : "463",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "766",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#BFFFBF"
+      },
+      "position" : {
+        "x" : 766.0,
+        "y" : 463.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "68",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa:3417+hsa:3418",
+        "KEGG_DEFINITION" : " isocitrate dehydrogenase (NADP(+)) 1, cytosolic [KO:K00031] [EC:1.1.1.42]",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "IDH1",
+        "KEGG_NODE_TYPE" : "gene",
+        "shared_name" : "path:hsa00020:34",
+        "KEGG_NODE_LABEL" : "IDH1, HEL-216, HEL-S-26, IDCD, IDH, IDP, IDPC, PICD...",
+        "KEGG_NODE_REACTIONID" : "rn:R00268",
+        "name" : "path:hsa00020:34",
+        "SUID" : 68,
+        "KEGG_NODE_LABEL_LIST" : [ "IDH1", "HEL-216", "HEL-S-26", "IDCD", "IDH", "IDP", "IDPC", "PICD..." ],
+        "KEGG_ID" : [ "hsa:3417", "hsa:3418" ],
+        "KEGG_NODE_Y" : "510",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "718",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#BFFFBF"
+      },
+      "position" : {
+        "x" : 718.0,
+        "y" : 510.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "67",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa:8801+hsa:8802+hsa:8803",
+        "KEGG_DEFINITION" : " succinate-CoA ligase GDP-forming beta subunit [KO:K01900] [EC:6.2.1.5 6.2.1.4]",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "SUCLG2",
+        "KEGG_NODE_TYPE" : "gene",
+        "shared_name" : "path:hsa00020:33",
+        "KEGG_NODE_LABEL" : "SUCLG2, G-SCS, GBETA, GTPSCS...",
+        "KEGG_NODE_REACTIONID" : "rn:R00432 rn:R00727",
+        "name" : "path:hsa00020:33",
+        "SUID" : 67,
+        "KEGG_NODE_LABEL_LIST" : [ "SUCLG2", "G-SCS", "GBETA", "GTPSCS..." ],
+        "KEGG_ID" : [ "hsa:8801", "hsa:8802", "hsa:8803" ],
+        "KEGG_NODE_Y" : "560",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "260",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#BFFFBF"
+      },
+      "position" : {
+        "x" : 260.0,
+        "y" : 560.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "66",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa:8801+hsa:8802+hsa:8803",
+        "KEGG_DEFINITION" : " succinate-CoA ligase GDP-forming beta subunit [KO:K01900] [EC:6.2.1.5 6.2.1.4]",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "SUCLG2",
+        "KEGG_NODE_TYPE" : "gene",
+        "shared_name" : "path:hsa00020:32",
+        "KEGG_NODE_LABEL" : "SUCLG2, G-SCS, GBETA, GTPSCS...",
+        "KEGG_NODE_REACTIONID" : "rn:R00405",
+        "name" : "path:hsa00020:32",
+        "SUID" : 66,
+        "KEGG_NODE_LABEL_LIST" : [ "SUCLG2", "G-SCS", "GBETA", "GTPSCS..." ],
+        "KEGG_ID" : [ "hsa:8801", "hsa:8802", "hsa:8803" ],
+        "KEGG_NODE_Y" : "579",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "260",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#BFFFBF"
+      },
+      "position" : {
+        "x" : 260.0,
+        "y" : 579.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "65",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa:1743",
+        "KEGG_DEFINITION" : " dihydrolipoamide S-succinyltransferase [KO:K00658] [EC:2.3.1.61]",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "DLST",
+        "KEGG_NODE_TYPE" : "gene",
+        "shared_name" : "path:hsa00020:31",
+        "KEGG_NODE_LABEL" : "DLST, DLTS",
+        "KEGG_NODE_REACTIONID" : "rn:R02570",
+        "name" : "path:hsa00020:31",
+        "SUID" : 65,
+        "KEGG_NODE_LABEL_LIST" : [ "DLST", "DLTS" ],
+        "KEGG_ID" : [ "hsa:1743" ],
+        "KEGG_NODE_Y" : "579",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "403",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#BFFFBF"
+      },
+      "position" : {
+        "x" : 403.0,
+        "y" : 579.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "64",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa:4967+hsa:55753",
+        "KEGG_DEFINITION" : " oxoglutarate dehydrogenase [KO:K00164] [EC:1.2.4.2]",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "OGDH",
+        "KEGG_NODE_TYPE" : "gene",
+        "shared_name" : "path:hsa00020:30",
+        "KEGG_NODE_LABEL" : "OGDH, AKGDH, E1k, OGDC...",
+        "KEGG_NODE_REACTIONID" : "rn:R03316",
+        "name" : "path:hsa00020:30",
+        "SUID" : 64,
+        "KEGG_NODE_LABEL_LIST" : [ "OGDH", "AKGDH", "E1k", "OGDC..." ],
+        "KEGG_ID" : [ "hsa:4967", "hsa:55753" ],
+        "KEGG_NODE_Y" : "580",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "530",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#BFFFBF"
+      },
+      "position" : {
+        "x" : 530.0,
+        "y" : 580.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "63",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa:4967+hsa:55753",
+        "KEGG_DEFINITION" : " oxoglutarate dehydrogenase [KO:K00164] [EC:1.2.4.2]",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "OGDH",
+        "KEGG_NODE_TYPE" : "gene",
+        "shared_name" : "path:hsa00020:29",
+        "KEGG_NODE_LABEL" : "OGDH, AKGDH, E1k, OGDC...",
+        "KEGG_NODE_REACTIONID" : "rn:R00621",
+        "name" : "path:hsa00020:29",
+        "SUID" : 63,
+        "KEGG_NODE_LABEL_LIST" : [ "OGDH", "AKGDH", "E1k", "OGDC..." ],
+        "KEGG_ID" : [ "hsa:4967", "hsa:55753" ],
+        "KEGG_NODE_Y" : "579",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "661",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#BFFFBF"
+      },
+      "position" : {
+        "x" : 661.0,
+        "y" : 579.0
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "62",
+        "KEGG_NODE_WIDTH" : "46",
+        "KEGG_LINK" : "https://www.kegg.jp/dbget-bin/www_bget?hsa:1738",
+        "KEGG_DEFINITION" : " dihydrolipoamide dehydrogenase [KO:K00382] [EC:1.8.1.4]",
+        "KEGG_NODE_HEIGHT" : "17",
+        "KEGG_NODE_LABEL_COLOR" : "#000000",
+        "KEGG_NODE_LABEL_LIST_FIRST" : "DLD",
+        "KEGG_NODE_TYPE" : "gene",
+        "shared_name" : "path:hsa00020:28",
+        "KEGG_NODE_LABEL" : "DLD, DLDD, DLDH, E3, GCSL, LAD, PHE3",
+        "KEGG_NODE_REACTIONID" : "rn:R07618",
+        "name" : "path:hsa00020:28",
+        "SUID" : 62,
+        "KEGG_NODE_LABEL_LIST" : [ "DLD", "DLDD", "DLDH", "E3", "GCSL", "LAD", "PHE3" ],
+        "KEGG_ID" : [ "hsa:1738" ],
+        "KEGG_NODE_Y" : "623",
+        "KEGG_NODE_SHAPE" : "rectangle",
+        "KEGG_NODE_X" : "467",
+        "selected" : false,
+        "KEGG_NODE_FILL_COLOR" : "#BFFFBF"
+      },
+      "position" : {
+        "x" : 467.0,
+        "y" : 623.0
+      },
+      "selected" : false
+    } ],
+    "edges" : [ {
+      "data" : {
+        "id" : "158",
+        "source" : "122",
+        "target" : "91",
+        "shared_name" : "rn:R02164",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R02164",
+        "interaction" : "reversible",
+        "SUID" : 158,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "199",
+        "source" : "119",
+        "target" : "79",
+        "KEGG_RELATION_TYPE" : "maplink",
+        "shared_interaction" : "maplink",
+        "KEGG_EDGE_SUBTYPES" : [ "maplink" ],
+        "interaction" : "maplink",
+        "SUID" : 199,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "181",
+        "source" : "118",
+        "target" : "114",
+        "shared_name" : "rn:R02569",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R02569",
+        "interaction" : "reversible",
+        "SUID" : 181,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "179",
+        "source" : "118",
+        "target" : "112",
+        "shared_name" : "rn:R07618",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R07618",
+        "interaction" : "reversible",
+        "SUID" : 179,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "185",
+        "source" : "117",
+        "target" : "119",
+        "shared_name" : "rn:R00431 rn:R00726",
+        "KEGG_REACTION_TYPE" : "irreversible",
+        "shared_interaction" : "irreversible",
+        "KEGG_EDGE_SUBTYPES" : [ "irreversible" ],
+        "name" : "rn:R00431 rn:R00726",
+        "interaction" : "irreversible",
+        "SUID" : 185,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "183",
+        "source" : "114",
+        "target" : "113",
+        "shared_name" : "rn:R02569",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R02569",
+        "interaction" : "reversible",
+        "SUID" : 183,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "180",
+        "source" : "112",
+        "target" : "111",
+        "shared_name" : "rn:R07618",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R07618",
+        "interaction" : "reversible",
+        "SUID" : 180,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "176",
+        "source" : "111",
+        "target" : "110",
+        "shared_name" : "rn:R03270",
+        "KEGG_REACTION_TYPE" : "irreversible",
+        "shared_interaction" : "irreversible",
+        "KEGG_EDGE_SUBTYPES" : [ "irreversible" ],
+        "name" : "rn:R03270",
+        "interaction" : "irreversible",
+        "SUID" : 176,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "178",
+        "source" : "110",
+        "target" : "113",
+        "shared_name" : "rn:R03270",
+        "KEGG_REACTION_TYPE" : "irreversible",
+        "shared_interaction" : "irreversible",
+        "KEGG_EDGE_SUBTYPES" : [ "irreversible" ],
+        "name" : "rn:R03270",
+        "interaction" : "irreversible",
+        "SUID" : 178,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "177",
+        "source" : "110",
+        "target" : "109",
+        "shared_name" : "rn:R03270",
+        "KEGG_REACTION_TYPE" : "irreversible",
+        "shared_interaction" : "irreversible",
+        "KEGG_EDGE_SUBTYPES" : [ "irreversible" ],
+        "name" : "rn:R03270",
+        "interaction" : "irreversible",
+        "SUID" : 177,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "173",
+        "source" : "109",
+        "target" : "108",
+        "shared_name" : "rn:R00014",
+        "KEGG_REACTION_TYPE" : "irreversible",
+        "shared_interaction" : "irreversible",
+        "KEGG_EDGE_SUBTYPES" : [ "irreversible" ],
+        "name" : "rn:R00014",
+        "interaction" : "irreversible",
+        "SUID" : 173,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "174",
+        "source" : "108",
+        "target" : "107",
+        "shared_name" : "rn:R00014",
+        "KEGG_REACTION_TYPE" : "irreversible",
+        "shared_interaction" : "irreversible",
+        "KEGG_EDGE_SUBTYPES" : [ "irreversible" ],
+        "name" : "rn:R00014",
+        "interaction" : "irreversible",
+        "SUID" : 174,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "175",
+        "source" : "107",
+        "target" : "110",
+        "shared_name" : "rn:R03270",
+        "KEGG_REACTION_TYPE" : "irreversible",
+        "shared_interaction" : "irreversible",
+        "KEGG_EDGE_SUBTYPES" : [ "irreversible" ],
+        "name" : "rn:R03270",
+        "interaction" : "irreversible",
+        "SUID" : 175,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "137",
+        "source" : "106",
+        "target" : "64",
+        "shared_name" : "rn:R03316",
+        "KEGG_REACTION_TYPE" : "irreversible",
+        "shared_interaction" : "irreversible",
+        "KEGG_EDGE_SUBTYPES" : [ "irreversible" ],
+        "name" : "rn:R03316",
+        "interaction" : "irreversible",
+        "SUID" : 137,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "200",
+        "source" : "105",
+        "target" : "126",
+        "KEGG_RELATION_TYPE" : "maplink",
+        "shared_interaction" : "maplink",
+        "KEGG_EDGE_SUBTYPES" : [ "maplink" ],
+        "interaction" : "maplink",
+        "SUID" : 200,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "198",
+        "source" : "105",
+        "target" : "83",
+        "KEGG_RELATION_TYPE" : "maplink",
+        "shared_interaction" : "maplink",
+        "KEGG_EDGE_SUBTYPES" : [ "maplink" ],
+        "interaction" : "maplink",
+        "SUID" : 198,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "197",
+        "source" : "105",
+        "target" : "84",
+        "KEGG_RELATION_TYPE" : "maplink",
+        "shared_interaction" : "maplink",
+        "KEGG_EDGE_SUBTYPES" : [ "maplink" ],
+        "interaction" : "maplink",
+        "SUID" : 197,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "196",
+        "source" : "105",
+        "target" : "89",
+        "KEGG_RELATION_TYPE" : "maplink",
+        "shared_interaction" : "maplink",
+        "KEGG_EDGE_SUBTYPES" : [ "maplink" ],
+        "interaction" : "maplink",
+        "SUID" : 196,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "134",
+        "source" : "105",
+        "target" : "63",
+        "shared_name" : "rn:R00621",
+        "KEGG_REACTION_TYPE" : "irreversible",
+        "shared_interaction" : "irreversible",
+        "KEGG_EDGE_SUBTYPES" : [ "irreversible" ],
+        "name" : "rn:R00621",
+        "interaction" : "irreversible",
+        "SUID" : 134,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "195",
+        "source" : "104",
+        "target" : "87",
+        "KEGG_RELATION_TYPE" : "maplink",
+        "shared_interaction" : "maplink",
+        "KEGG_EDGE_SUBTYPES" : [ "maplink" ],
+        "interaction" : "maplink",
+        "SUID" : 195,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "141",
+        "source" : "104",
+        "target" : "65",
+        "shared_name" : "rn:R02570",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R02570",
+        "interaction" : "reversible",
+        "SUID" : 141,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "142",
+        "source" : "103",
+        "target" : "65",
+        "shared_name" : "rn:R02570",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R02570",
+        "interaction" : "reversible",
+        "SUID" : 142,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "132",
+        "source" : "103",
+        "target" : "62",
+        "shared_name" : "rn:R07618",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R07618",
+        "interaction" : "reversible",
+        "SUID" : 132,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "135",
+        "source" : "101",
+        "target" : "63",
+        "shared_name" : "rn:R00621",
+        "KEGG_REACTION_TYPE" : "irreversible",
+        "shared_interaction" : "irreversible",
+        "KEGG_EDGE_SUBTYPES" : [ "irreversible" ],
+        "name" : "rn:R00621",
+        "interaction" : "irreversible",
+        "SUID" : 135,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "138",
+        "source" : "100",
+        "target" : "64",
+        "shared_name" : "rn:R03316",
+        "KEGG_REACTION_TYPE" : "irreversible",
+        "shared_interaction" : "irreversible",
+        "KEGG_EDGE_SUBTYPES" : [ "irreversible" ],
+        "name" : "rn:R03316",
+        "interaction" : "irreversible",
+        "SUID" : 138,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "163",
+        "source" : "99",
+        "target" : "74",
+        "shared_name" : "rn:R01325",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R01325",
+        "interaction" : "reversible",
+        "SUID" : 163,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "157",
+        "source" : "98",
+        "target" : "122",
+        "shared_name" : "rn:R02164",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R02164",
+        "interaction" : "reversible",
+        "SUID" : 157,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "146",
+        "source" : "98",
+        "target" : "67",
+        "shared_name" : "rn:R00432 rn:R00727",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R00432 rn:R00727",
+        "interaction" : "reversible",
+        "SUID" : 146,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "144",
+        "source" : "98",
+        "target" : "66",
+        "shared_name" : "rn:R00405",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R00405",
+        "interaction" : "reversible",
+        "SUID" : 144,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "161",
+        "source" : "97",
+        "target" : "73",
+        "shared_name" : "rn:R01900",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R01900",
+        "interaction" : "reversible",
+        "SUID" : 161,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "152",
+        "source" : "96",
+        "target" : "70",
+        "shared_name" : "rn:R01899",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R01899",
+        "interaction" : "reversible",
+        "SUID" : 152,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "150",
+        "source" : "96",
+        "target" : "69",
+        "shared_name" : "rn:R00709",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R00709",
+        "interaction" : "reversible",
+        "SUID" : 150,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "168",
+        "source" : "95",
+        "target" : "76",
+        "shared_name" : "rn:R00342",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R00342",
+        "interaction" : "reversible",
+        "SUID" : 168,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "159",
+        "source" : "95",
+        "target" : "72",
+        "shared_name" : "rn:R01082",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R01082",
+        "interaction" : "reversible",
+        "SUID" : 159,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "190",
+        "source" : "94",
+        "target" : "82",
+        "KEGG_RELATION_TYPE" : "maplink",
+        "shared_interaction" : "maplink",
+        "KEGG_EDGE_SUBTYPES" : [ "maplink" ],
+        "interaction" : "maplink",
+        "SUID" : 190,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "189",
+        "source" : "94",
+        "target" : "115",
+        "KEGG_RELATION_TYPE" : "maplink",
+        "shared_interaction" : "maplink",
+        "KEGG_EDGE_SUBTYPES" : [ "maplink" ],
+        "interaction" : "maplink",
+        "SUID" : 189,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "188",
+        "source" : "94",
+        "target" : "81",
+        "KEGG_RELATION_TYPE" : "maplink",
+        "shared_interaction" : "maplink",
+        "KEGG_EDGE_SUBTYPES" : [ "maplink" ],
+        "interaction" : "maplink",
+        "SUID" : 188,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "187",
+        "source" : "94",
+        "target" : "80",
+        "KEGG_RELATION_TYPE" : "maplink",
+        "shared_interaction" : "maplink",
+        "KEGG_EDGE_SUBTYPES" : [ "maplink" ],
+        "interaction" : "maplink",
+        "SUID" : 187,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "182",
+        "source" : "94",
+        "target" : "114",
+        "shared_name" : "rn:R02569",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R02569",
+        "interaction" : "reversible",
+        "SUID" : 182,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "166",
+        "source" : "94",
+        "target" : "75",
+        "shared_name" : "rn:R00351",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R00351",
+        "interaction" : "reversible",
+        "SUID" : 166,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "155",
+        "source" : "94",
+        "target" : "71",
+        "shared_name" : "rn:R00352",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R00352",
+        "interaction" : "reversible",
+        "SUID" : 155,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "148",
+        "source" : "93",
+        "target" : "68",
+        "shared_name" : "rn:R00268",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R00268",
+        "interaction" : "reversible",
+        "SUID" : 148,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "192",
+        "source" : "92",
+        "target" : "88",
+        "KEGG_RELATION_TYPE" : "maplink",
+        "shared_interaction" : "maplink",
+        "KEGG_EDGE_SUBTYPES" : [ "maplink" ],
+        "interaction" : "maplink",
+        "SUID" : 192,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "191",
+        "source" : "92",
+        "target" : "78",
+        "KEGG_RELATION_TYPE" : "maplink",
+        "shared_interaction" : "maplink",
+        "KEGG_EDGE_SUBTYPES" : [ "maplink" ],
+        "interaction" : "maplink",
+        "SUID" : 191,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "184",
+        "source" : "92",
+        "target" : "117",
+        "shared_name" : "rn:R00431 rn:R00726",
+        "KEGG_REACTION_TYPE" : "irreversible",
+        "shared_interaction" : "irreversible",
+        "KEGG_EDGE_SUBTYPES" : [ "irreversible" ],
+        "name" : "rn:R00431 rn:R00726",
+        "interaction" : "irreversible",
+        "SUID" : 184,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "165",
+        "source" : "92",
+        "target" : "75",
+        "shared_name" : "rn:R00351",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R00351",
+        "interaction" : "reversible",
+        "SUID" : 165,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "154",
+        "source" : "92",
+        "target" : "71",
+        "shared_name" : "rn:R00352",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R00352",
+        "interaction" : "reversible",
+        "SUID" : 154,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "194",
+        "source" : "91",
+        "target" : "125",
+        "KEGG_RELATION_TYPE" : "maplink",
+        "shared_interaction" : "maplink",
+        "KEGG_EDGE_SUBTYPES" : [ "maplink" ],
+        "interaction" : "maplink",
+        "SUID" : 194,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "193",
+        "source" : "91",
+        "target" : "86",
+        "KEGG_RELATION_TYPE" : "maplink",
+        "shared_interaction" : "maplink",
+        "KEGG_EDGE_SUBTYPES" : [ "maplink" ],
+        "interaction" : "maplink",
+        "SUID" : 193,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "186",
+        "source" : "90",
+        "target" : "79",
+        "KEGG_RELATION_TYPE" : "maplink",
+        "shared_interaction" : "maplink",
+        "KEGG_EDGE_SUBTYPES" : [ "maplink" ],
+        "interaction" : "maplink",
+        "SUID" : 186,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "172",
+        "source" : "90",
+        "target" : "108",
+        "shared_name" : "rn:R00014",
+        "KEGG_REACTION_TYPE" : "irreversible",
+        "shared_interaction" : "irreversible",
+        "KEGG_EDGE_SUBTYPES" : [ "irreversible" ],
+        "name" : "rn:R00014",
+        "interaction" : "irreversible",
+        "SUID" : 172,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "170",
+        "source" : "90",
+        "target" : "77",
+        "shared_name" : "rn:R00344",
+        "KEGG_REACTION_TYPE" : "irreversible",
+        "shared_interaction" : "irreversible",
+        "KEGG_EDGE_SUBTYPES" : [ "irreversible" ],
+        "name" : "rn:R00344",
+        "interaction" : "irreversible",
+        "SUID" : 170,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "171",
+        "source" : "77",
+        "target" : "92",
+        "shared_name" : "rn:R00344",
+        "KEGG_REACTION_TYPE" : "irreversible",
+        "shared_interaction" : "irreversible",
+        "KEGG_EDGE_SUBTYPES" : [ "irreversible" ],
+        "name" : "rn:R00344",
+        "interaction" : "irreversible",
+        "SUID" : 171,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "169",
+        "source" : "76",
+        "target" : "92",
+        "shared_name" : "rn:R00342",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R00342",
+        "interaction" : "reversible",
+        "SUID" : 169,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "167",
+        "source" : "75",
+        "target" : "99",
+        "shared_name" : "rn:R00351",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R00351",
+        "interaction" : "reversible",
+        "SUID" : 167,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "164",
+        "source" : "74",
+        "target" : "97",
+        "shared_name" : "rn:R01325",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R01325",
+        "interaction" : "reversible",
+        "SUID" : 164,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "162",
+        "source" : "73",
+        "target" : "96",
+        "shared_name" : "rn:R01900",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R01900",
+        "interaction" : "reversible",
+        "SUID" : 162,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "160",
+        "source" : "72",
+        "target" : "91",
+        "shared_name" : "rn:R01082",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R01082",
+        "interaction" : "reversible",
+        "SUID" : 160,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "156",
+        "source" : "71",
+        "target" : "99",
+        "shared_name" : "rn:R00352",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R00352",
+        "interaction" : "reversible",
+        "SUID" : 156,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "153",
+        "source" : "70",
+        "target" : "93",
+        "shared_name" : "rn:R01899",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R01899",
+        "interaction" : "reversible",
+        "SUID" : 153,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "151",
+        "source" : "69",
+        "target" : "105",
+        "shared_name" : "rn:R00709",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R00709",
+        "interaction" : "reversible",
+        "SUID" : 151,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "149",
+        "source" : "68",
+        "target" : "105",
+        "shared_name" : "rn:R00268",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R00268",
+        "interaction" : "reversible",
+        "SUID" : 149,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "147",
+        "source" : "67",
+        "target" : "104",
+        "shared_name" : "rn:R00432 rn:R00727",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R00432 rn:R00727",
+        "interaction" : "reversible",
+        "SUID" : 147,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "145",
+        "source" : "66",
+        "target" : "104",
+        "shared_name" : "rn:R00405",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R00405",
+        "interaction" : "reversible",
+        "SUID" : 145,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "143",
+        "source" : "65",
+        "target" : "102",
+        "shared_name" : "rn:R02570",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R02570",
+        "interaction" : "reversible",
+        "SUID" : 143,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "140",
+        "source" : "64",
+        "target" : "101",
+        "shared_name" : "rn:R03316",
+        "KEGG_REACTION_TYPE" : "irreversible",
+        "shared_interaction" : "irreversible",
+        "KEGG_EDGE_SUBTYPES" : [ "irreversible" ],
+        "name" : "rn:R03316",
+        "interaction" : "irreversible",
+        "SUID" : 140,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "139",
+        "source" : "64",
+        "target" : "102",
+        "shared_name" : "rn:R03316",
+        "KEGG_REACTION_TYPE" : "irreversible",
+        "shared_interaction" : "irreversible",
+        "KEGG_EDGE_SUBTYPES" : [ "irreversible" ],
+        "name" : "rn:R03316",
+        "interaction" : "irreversible",
+        "SUID" : 139,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "136",
+        "source" : "63",
+        "target" : "106",
+        "shared_name" : "rn:R00621",
+        "KEGG_REACTION_TYPE" : "irreversible",
+        "shared_interaction" : "irreversible",
+        "KEGG_EDGE_SUBTYPES" : [ "irreversible" ],
+        "name" : "rn:R00621",
+        "interaction" : "irreversible",
+        "SUID" : 136,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "133",
+        "source" : "62",
+        "target" : "100",
+        "shared_name" : "rn:R07618",
+        "KEGG_REACTION_TYPE" : "reversible",
+        "shared_interaction" : "reversible",
+        "KEGG_EDGE_SUBTYPES" : [ "reversible" ],
+        "name" : "rn:R07618",
+        "interaction" : "reversible",
+        "SUID" : 133,
+        "selected" : false
+      },
+      "selected" : false
+    } ]
+  }
+}

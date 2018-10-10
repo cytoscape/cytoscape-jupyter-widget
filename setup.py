@@ -152,11 +152,14 @@ setup_args = {
 
     'author': 'Keiichiro Ono',
     'author_email': 'kono@ucsd.edu',
-    'url': 'https://github.com/cytoscape/cytoscape-jupyter-widget',
+    'url': 'https://github.com/idekerlab/cytoscape-jupyter-widget',
     'keywords': [
         'ipython',
         'jupyter',
         'widgets',
+        'cytoscape',
+        'graph',
+        'visualization'
     ],
     'classifiers': [
         'Development Status :: 4 - Beta',
