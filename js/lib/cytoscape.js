@@ -87,7 +87,6 @@ var CytoscapeView = widgets.DOMWidgetView.extend({
 
         this.el.classList.add('cytoscape-widget')
         this.el.id = 'cyjs'
-
         this.$el.css({
             background: background,
             height: cellHeight
