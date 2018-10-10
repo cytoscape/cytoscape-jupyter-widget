@@ -1,12 +1,12 @@
 {
     "name": "cytoscape-jupyter-widget",
-    "version": "0.1.0",
-    "description": "Cytoscape.js widget for Jupyter Notebook",
+    "version": "0.2.0",
+    "description": "Cytoscape.js based network visualization widget for Jupyter Notebook",
     "author": "Keiichiro Ono",
     "main": "lib/index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/idekerla/cytoscape-jupyter-widget.git"
+        "url": "https://github.com/idekerlab/cytoscape-jupyter-widget.git"
     },
     "keywords": [
         "jupyter",

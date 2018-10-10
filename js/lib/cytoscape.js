@@ -1,7 +1,7 @@
 var widgets = require('@jupyter-widgets/base');
 var _ = require('lodash');
 var cytoscape = require('cytoscape');
-var cyjs = require('./cytoscape-renderer');
+var cyjs = require('./cytoscape-util');
 
 const FORMAT = {
     CX: 'cx',
@@ -9,7 +9,9 @@ const FORMAT = {
     EDGELIST: 'el',
 }
 
+const DEF_BG = '#FFFFFF'
 const DEF_LAYOUT = 'cose'
+const DEF_HEIGHT = '500px'
 
 const DEF_STYLE = [{
         selector: 'node',
@@ -18,12 +20,11 @@ const DEF_STYLE = [{
             'label': 'data(id)',
             'width': 12,
             'height': 12,
-            'color': '#444444',
+            'color': '#333333',
             'font-weight': 400,
             'text-halign': 'right',
             'text-valign': 'bottom',
-            'font-size': 18
-
+            'font-size': 16
         }
     },
     {
@@ -37,17 +38,7 @@ const DEF_STYLE = [{
     }
 ];
 
-const EMPTY_NET = {
-    data: {
-        name: 'Cytoscape Network'
-    },
-    elements: {
-        nodes: [],
-        edges: []
-    }
-}
-
-// Custom Model. Custom widgets models must at least provide default values
+// Cytoscape Model. Custom widgets models must at least provide default values
 // for model attributes, including
 //
 //  - `_view_name`
@@ -68,11 +59,8 @@ var CytoscapeModel = widgets.DOMWidgetModel.extend({
         _view_name: 'CytoscapeView',
         _model_module: 'cytoscape-jupyter-widget',
         _view_module: 'cytoscape-jupyter-widget',
-        _model_module_version: '0.1.0',
-        _view_module_version: '0.1.0',
-        data: EMPTY_NET,
-        format: 'cx',
-        background: '#EEEEEE'
+        _model_module_version: '0.2.0',
+        _view_module_version: '0.2.0'
     })
 });
 
@@ -87,19 +75,14 @@ var CytoscapeView = widgets.DOMWidgetView.extend({
 
     value_changed: function() {
         let background = this.model.get('background');
-
-        console.log(this.model.get('layout'))
-
         const layoutModel = this.model.get('layout')
-        console.log(layoutModel.attributes)
         let cellHeight = layoutModel.attributes.height
-        console.log('CH: ', cellHeight)
 
         if (!background) {
-            background = '#FFFFFF'
+            background = DEF_BG
         }
         if (!cellHeight) {
-            cellHeight = '550px'
+            cellHeight = DEF_HEIGHT
         }
 
         this.el.classList.add('cytoscape-widget')
@@ -138,22 +121,14 @@ var CytoscapeView = widgets.DOMWidgetView.extend({
         const format = that.model.get('format');
         var layoutName = that.model.get('layout_name');
 
-
-
         let network = data
         let visualStyle = null;
 
         if (format === FORMAT.CX) {
             // Convert to CYJS
-            console.log('This is CX:', data)
             network = cyjs.fromCx(data)
             visualStyle = network.style
-            console.log('result CX:', network)
-            console.log('Layout3:', layoutName)
         }
-
-        console.log('Param Visual Style:', visualStyle)
-
         const vsParam = that.model.get('visual_style');
         if (vsParam) {
             // Override VS
@@ -163,8 +138,6 @@ var CytoscapeView = widgets.DOMWidgetView.extend({
         if (!visualStyle) {
             visualStyle = DEF_STYLE;
         }
-
-        console.log('final Visual Style:', visualStyle)
 
         if (!layoutName || typeof layoutName !== 'string') {
             if (this.checkPositions(network.elements)) {
