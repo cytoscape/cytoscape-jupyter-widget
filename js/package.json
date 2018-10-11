@@ -1,6 +1,6 @@
 {
     "name": "cytoscape-jupyter-widget",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "Cytoscape.js based network visualization widget for Jupyter Notebook",
     "author": "Keiichiro Ono",
     "main": "lib/index.js",

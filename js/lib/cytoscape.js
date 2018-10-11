@@ -59,8 +59,8 @@ var CytoscapeModel = widgets.DOMWidgetModel.extend({
         _view_name: 'CytoscapeView',
         _model_module: 'cytoscape-jupyter-widget',
         _view_module: 'cytoscape-jupyter-widget',
-        _model_module_version: '0.2.0',
-        _view_module_version: '0.2.0'
+        _model_module_version: '0.3.0',
+        _view_module_version: '0.3.0'
     })
 });
 
