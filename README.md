@@ -8,10 +8,19 @@
 
 _**Cytoscape Jupyter Widget**_, or _**CyJupyter**_, is a simple interactive network visualizer for Jupyter Notebook.  You can easily visualize network data in JSON / Python Dict using built-in Cytoscape.js visualizer.
 
+## Quick Start
+
+```bash
+> pip install cyjupyter
+> jupyter nbextension enable --py --sys-prefix cyjupyter
+> jupyter notebook
+```
+
 ### For _JupyterLab_ users
 
 There is another network visualizer for JupyterLab:
 
+* https://github.com/idekerlab/cy-jupyterlab
 
 This package is still under development, but we will add more features to it and release the final version once JupyterLab extention API is finalized.
 
@@ -40,10 +49,15 @@ This package is still under development, but we will add more features to it and
 
 ### From PyPI
 
-To install use pip:
+To install this widget, use _pip_:
 
-    $ pip install cyjupyter
-    $ jupyter nbextension enable --py --sys-prefix cyjupyter
+```bash
+# Install the widget from PyPI repository
+> pip install cyjupyter
+
+# Enable it
+> jupyter nbextension enable --py --sys-prefix cyjupyter
+```
 
 ### Install from source
 
@@ -55,7 +69,13 @@ For a development installation (requires npm),
     $ jupyter nbextension install --py --symlink --sys-prefix cyjupyter
     $ jupyter nbextension enable --py --sys-prefix cyjupyter
 
-## Quick Start
+## How to use the widget
+
+Once you install this widget, you can use it by importing it to your notebook:
+
+```python
+from cyjupyter import Cytoscape
+```
 
 Please try [this notebook](examples/WidgetDemo1.ipynb) to learn how to use this widget.
 
@@ -63,6 +83,10 @@ Please try [this notebook](examples/WidgetDemo1.ipynb) to learn how to use this 
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
+
+## Questions / Bugs / Feature Requests?
+
+Please use [GitHub Issue Tracker](https://github.com/idekerlab/cytoscape-jupyter-widget/issues).
 
 
 ----
