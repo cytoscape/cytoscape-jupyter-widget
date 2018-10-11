@@ -22,7 +22,7 @@ log.set_verbosity(log.DEBUG)
 log.info('setup.py entered')
 log.info('$PATH=%s' % os.environ['PATH'])
 
-LONG_DESCRIPTION = 'Cytoscape.js widget for Jupyter Notebook'
+LONG_DESCRIPTION = 'Cytoscape.js network visualization widget for Jupyter Notebook'
 
 def js_prerelease(command, strict=False):
     """decorator for building minified js/css prior to another command"""
