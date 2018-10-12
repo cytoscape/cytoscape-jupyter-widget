@@ -71,6 +71,11 @@ _CyJupyter_ is a simple data visualization widget, but yet very powerful tool on
 
 (Fig. 3: Network visualization with custom background using CSS gradient)
 
+* Can be used with popular network analysis tools, such as *NetworkX*
+
+![](examples/cyjupyter2.png)
+
+(Fig. 4: Network generated with NetworkX, visualized with CyJupyer)
 
 ## Installation
 
