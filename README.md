@@ -90,11 +90,13 @@ To install this widget, use _pip_:
 
 For a development installation (requires npm),
 
-    $ git clone https://github.com/idekerlab/cytoscape-jupyter-widget.git
-    $ cd cytoscape-jupyter-widget
-    $ pip install -e .
-    $ jupyter nbextension install --py --symlink --sys-prefix cyjupyter
-    $ jupyter nbextension enable --py --sys-prefix cyjupyter
+```bash
+$ git clone https://github.com/idekerlab/cytoscape-jupyter-widget.git
+$ cd cytoscape-jupyter-widget
+$ pip install -e .
+$ jupyter nbextension install --py --symlink --sys-prefix cyjupyter
+$ jupyter nbextension enable --py --sys-prefix cyjupyter
+```
 
 ## How to use the widget
 
@@ -104,11 +106,61 @@ Once you install this widget, you can use it by importing it to your notebook:
 from cyjupyter import Cytoscape
 ```
 
-Please try [this notebook](examples/WidgetDemo1.ipynb) to learn how to use this widget.
+**_Cytoscape_** is the only Class in this Widget.  Basic usage is:
+
+```python
+Cytoscape(data=network_data, format=cx)
+```
+
+where _data_ is the actual network data in Python Dictionary or List (for CX) and _format_ is the network data format name.
+
+### Supported Data Format
+
+Currently, this Widget supports two network formats:
+
+* cyjs - [Cytoscape.js JSON](http://js.cytoscape.org/#notation/elements-json)
+* cx - Cytoscape network eXchange format ([CX](http://www.home.ndexbio.org/data-model/))
+
+If you have data in JSON file, you can use Python's standard [json](https://docs.python.org/3.7/library/json.html#module-json) library to convert it into Python Dict/List.
+
+#### Cytoscape.js JSON
+
+The data should be in the following format:
+
+```json
+{
+  "elements": {
+    "nodes":[],
+    "edges": []
+  }
+}
+```
+
+for more information about this data model, please visit Cytoscape.js web site.
+
+#### CX JSON Array
+
+This is always a JSON Array and is fairly complex data format, but you can use Python library to 
+
+* [NDEx2 Client](https://github.com/ndexbio/ndex2-client)
+
+Also, for network biologists, [NDEx](http://www.ndexbio.org/) is a great resource. All data sets are availabe in CX format.
+
+Internally, it uses Cytoscape.js as the rendering engine, and if you provide your data in Cytoscape.js format, it is the most efficient way yo visualize your data.  If you provide your data as CX, the Widget automatically convert the data into Cytoscape.js compatible data structure and then visualizes it.
+
+### Examples
+The best way to learn this widget is actually visualize some network data.  Please try [this notebook](examples/WidgetDemo1.ipynb) to learn how to use this widget.
 
 
 ## API Reference
 (TBD)
+
+* data
+* format
+* style
+* background
+* layout_name
+* layout
 
 
 ## License
