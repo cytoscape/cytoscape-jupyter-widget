@@ -1,4 +1,4 @@
-:warning: **This widget is deprecated.  We recommend you try [ipycytoscape](https://github.com/QuantStack/ipycytoscape).**
+:warning: **This widget is deprecated.  We recommend you try [ipycytoscape](https://github.com/cytoscape/ipycytoscape).**
 
 # CyJupyter (cytoscape-jupyter-widget)
 
