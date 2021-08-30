@@ -1,5 +1,3 @@
-:warning: **This widget is deprecated.  We recommend you try [ipycytoscape](https://github.com/cytoscape/ipycytoscape).**
-
 # CyJupyter (cytoscape-jupyter-widget)
 
 ### An interactive network visualizer for Jupyter Notebook
@@ -9,6 +7,8 @@
 ![](examples/cyjupyter1.png)
 
 _**Cytoscape Jupyter Widget**_, or _**CyJupyter**_, is a simple interactive network visualizer for Jupyter Notebook.  You can easily visualize network data in JSON / Python Dict with built-in [Cytoscape.js](http://js.cytoscape.org/) visualizer.
+
+For additional features and capabilities, we recommend you try the new **[ipycytoscape](https://github.com/cytoscape/ipycytoscape).**
 
 
 ### About Cytoscape
