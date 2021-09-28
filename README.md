@@ -1,15 +1,19 @@
 # CyJupyter (cytoscape-jupyter-widget)
 
-### An interactive network visualizer for Jupyter Notebook
+### Overview
+CyJupyter is a simple interactive network visualizer for **Jupyter Notebook**. For additional features and capabilities, we recommend you try the new **[ipycytoscape](https://github.com/cytoscape/ipycytoscape)** package instead. 
 
-## Introduction
+### Limitations
+CyJupiter is not supported in **JupyterLab**. There is another visualizer specifically created for JupyterLab:
+
+* https://github.com/idekerlab/cy-jupyterlab
+
+This package is still under development, but we will add more features to it and release the final version once the JupyterLab extention API is finalized.
+
+### Introduction
+With the **CyJupyter** widget, you can easily visualize network data in JSON / Python Dict using the built-in [Cytoscape.js](http://js.cytoscape.org/) visualizer.
 
 ![](examples/cyjupyter1.png)
-
-_**Cytoscape Jupyter Widget**_, or _**CyJupyter**_, is a simple interactive network visualizer for Jupyter Notebook.  You can easily visualize network data in JSON / Python Dict with built-in [Cytoscape.js](http://js.cytoscape.org/) visualizer.
-
-For additional features and capabilities, we recommend you try the new **[ipycytoscape](https://github.com/cytoscape/ipycytoscape).**
-
 
 ### About Cytoscape
 
@@ -34,16 +38,6 @@ If you want to interactively edit (large) networks, create PDF/SVG, try the Cyto
 > jupyter nbextension enable --py --sys-prefix cyjupyter
 > jupyter notebook
 ```
-
-
-### For _JupyterLab_ users
-
-There is another network visualizer for JupyterLab:
-
-* https://github.com/idekerlab/cy-jupyterlab
-
-This package is still under development, but we will add more features to it and release the final version once JupyterLab extention API is finalized.
-
 
 ## Features
 _CyJupyter_ is a simple data visualization widget, but yet very powerful tool once you understand its engine, Cytoscape.js.
@@ -147,7 +141,7 @@ for more information about this data model, please visit Cytoscape.js web site.
 
 #### CX JSON Array
 
-This is always a JSON Array and is fairly complex data format, but you can use Python library to 
+This is always a JSON Array and is a fairly complex data format, but you can use this Python library to simplify your work: 
 
 * [NDEx2 Client](https://github.com/ndexbio/ndex2-client)
 
