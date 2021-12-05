@@ -1,15 +1,19 @@
-:warning: **This widget is deprecated.  We recommend you try [ipycytoscape](https://github.com/cytoscape/ipycytoscape).**
-
 # CyJupyter (cytoscape-jupyter-widget)
 
-### An interactive network visualizer for Jupyter Notebook
+## Overview
+CyJupyter is a simple interactive network visualizer for **Jupyter Notebook**. For additional features and capabilities, we recommend you try the new **[ipycytoscape](https://github.com/cytoscape/ipycytoscape)** package instead. 
+
+## Limitations
+CyJupiter is not supported in **JupyterLab**. There is another visualizer specifically created for JupyterLab:
+
+* https://github.com/idekerlab/cy-jupyterlab
+
+This package is still under development, but we will add more features to it and release the final version once the JupyterLab extention API is finalized.
 
 ## Introduction
+With the **CyJupyter** widget, you can easily visualize network data in JSON / Python Dict using the built-in [Cytoscape.js](http://js.cytoscape.org/) visualizer.
 
 ![](examples/cyjupyter1.png)
-
-_**Cytoscape Jupyter Widget**_, or _**CyJupyter**_, is a simple interactive network visualizer for Jupyter Notebook.  You can easily visualize network data in JSON / Python Dict with built-in [Cytoscape.js](http://js.cytoscape.org/) visualizer.
-
 
 ### About Cytoscape
 
@@ -34,16 +38,6 @@ If you want to interactively edit (large) networks, create PDF/SVG, try the Cyto
 > jupyter nbextension enable --py --sys-prefix cyjupyter
 > jupyter notebook
 ```
-
-
-### For _JupyterLab_ users
-
-There is another network visualizer for JupyterLab:
-
-* https://github.com/idekerlab/cy-jupyterlab
-
-This package is still under development, but we will add more features to it and release the final version once JupyterLab extention API is finalized.
-
 
 ## Features
 _CyJupyter_ is a simple data visualization widget, but yet very powerful tool once you understand its engine, Cytoscape.js.
@@ -121,7 +115,7 @@ Cytoscape(data=network_data, format=cx)
 
 where _data_ is the actual network data in Python Dictionary or List (for CX) and _format_ is the network data format name.
 
-### Supported Data Format
+## Supported Data Format
 
 Currently, this Widget supports two network formats:
 
@@ -130,7 +124,7 @@ Currently, this Widget supports two network formats:
 
 If you have data in JSON file, you can use Python's standard [json](https://docs.python.org/3.7/library/json.html#module-json) library to convert it into Python Dict/List.
 
-#### Cytoscape.js JSON
+### Cytoscape.js JSON
 
 The data should be in the following format:
 
@@ -145,9 +139,9 @@ The data should be in the following format:
 
 for more information about this data model, please visit Cytoscape.js web site.
 
-#### CX JSON Array
+### CX JSON Array
 
-This is always a JSON Array and is fairly complex data format, but you can use Python library to 
+This is always a JSON Array and is a fairly complex data format, but you can use this Python library to simplify your work: 
 
 * [NDEx2 Client](https://github.com/ndexbio/ndex2-client)
 
@@ -155,7 +149,7 @@ Also, for network biologists, [NDEx](http://www.ndexbio.org/) is a great resourc
 
 Internally, it uses Cytoscape.js as the rendering engine, and if you provide your data in Cytoscape.js format, it is the most efficient way yo visualize your data.  If you provide your data as CX, the Widget automatically convert the data into Cytoscape.js compatible data structure and then visualizes it.
 
-### Examples
+## Examples
 The best way to learn this widget is actually visualize some network data.  Please try [this notebook](examples/WidgetDemo1.ipynb) to learn how to use this widget.
 
 
